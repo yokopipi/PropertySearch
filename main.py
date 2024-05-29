@@ -63,9 +63,9 @@ with st.sidebar:
     #---------以下、駅検索条件---------
     st.markdown('<div class="custom-text">駅検索条件</div>', unsafe_allow_html=True)
     st.write("## よく行く場所:")  
-    target_Station1 = st.text_input("目的地駅①",'大手町',key='target_Station1')
+    target_Station1 = st.text_input("目的地駅①",'大手町駅',key='target_Station1')
     allowable_time1 = st.number_input('目的地駅①までの許容時間（分）', min_value=0, value=30, key='allowable_time1')
-    target_Station2 = st.text_input("目的地駅②",'羽田空港',key='target_Station2')
+    target_Station2 = st.text_input("目的地駅②",'羽田空港第１・第２ターミナル駅',key='target_Station2')
     allowable_time2 = st.number_input('目的地駅②までの許容時間（分）', min_value=0, value=30, key='allowable_time2')
 
     st.write("## 駅近（半径1KM以内）に必要な施設:")  
