@@ -2,6 +2,7 @@
 from station_search import station_search
 from introduction_to_Station import introduction_to_Station
 from property_search import property_search
+from facility_search import facility_search
 
 import streamlit as st
 import pandas as pd
@@ -42,7 +43,7 @@ cursor.execute(query)
 # 結果の取得
 results = cursor.fetchall()
 # データフレームに変換
-df = pd.DataFrame(results, columns=['facility_code', 'facility_type'])
+df_facility_code = pd.DataFrame(results, columns=['facility_code', 'facility_type'])
 
 ### 駅近（半径1KM以内）に必要な施設
 set_layout_list = [
@@ -72,7 +73,7 @@ with st.sidebar:
     # チェックボックスの選択状態を管理するための辞書
     selected_facilitys = {}
     # チェックボックスで施設タイプを表示
-    for i, row in df.iterrows():
+    for i, row in df_facility_code.iterrows():
         facility_code = row['facility_code']
         facility_type = row['facility_type']
         selected = st.checkbox(facility_type, key=facility_code)
@@ -126,35 +127,42 @@ if 'station_df' in st.session_state:
         cols[0].write(row['station_name'])
         cols[1].write(row['line'])
         cols[2].write(row['ward'])
-        cols[3].write(row['time_to_target1'])
-        cols[4].write(row['time_to_target2'])
-        cols[5].write(row['average_rent'])
-        cols[6].write(row['num_properties'])
+        cols[3].write(str(int(row['time_to_target1']))+"分")
+        cols[4].write(str(int(row['time_to_target2']))+"分")
+        cols[5].write(str(int(row['average_rent']))+"円")
+        cols[6].write(str(row['num_properties']))
         if cols[7].button("選択", key=f"select_{index}"):  # キーにインデックスを追加
             if 'selected_station' not in st.session_state:
                 st.session_state.selected_station = None
             if 'last_selected_station' not in st.session_state:
                 st.session_state.last_selected_station = None
             st.session_state.selected_station = row['station_name']
+            st.session_state.selected_station_longitude = row['longitude']
+            st.session_state.selected_station_latitude = row['latitude']
 
 
     #---------以下、駅指定後の物件検索結果の出力---------
     if 'selected_station' in st.session_state:
         # chatgptによる駅紹介
-        st.markdown(f'<div class="custom-text">{st.session_state.selected_station} 駅の紹介</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="custom-text">{st.session_state.selected_station}の紹介</div>', unsafe_allow_html=True)
 
         if st.session_state.selected_station and st.session_state.selected_station != st.session_state.last_selected_station:
             st.session_state.last_selected_station = st.session_state.selected_station
-            introduction_text = introduction_to_Station(st.session_state.selected_station)
+            #introduction_text = introduction_to_Station(st.session_state.selected_station)
+            introduction_text = "処理スキップ"
             st.session_state.introduction_text = introduction_text
             st.write(introduction_text)
         elif 'introduction_text' in st.session_state:
             st.write(st.session_state.introduction_text)
 
         # 対象駅の物件を一覧表と地図で表示
-        st.markdown(f'<div class="custom-text">{st.session_state.selected_station} 駅の物件情報</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="custom-text">{st.session_state.selected_station}の物件情報</div>', unsafe_allow_html=True)
         tab_lists,tab_map = st.tabs(["一覧で表示","地図で表示",])
-        df = property_search()
+
+        # 対象駅の物件を検索
+        df_property = property_search()
+        # 対象駅の設備を検索
+        df_facility = facility_search()
 
         # セッションステートの初期化
         if 'selected_indices' not in st.session_state:
@@ -167,23 +175,24 @@ if 'station_df' in st.session_state:
             #---------一覧表示---------
 
             # タイトル行の常時表示
-            title_row = df.iloc[0]
-            title_cols = st.columns([0.5, 2, 1, 1, 1, 1, 1, 1, 2])
+            title_row = df_property.iloc[0]
+            title_cols = st.columns([0.5, 2.5, 1, 1, 1, 1, 0.8, 0.8, 1, 2])
             title_cols[0].write('**選択**')
             title_cols[1].write('**物件名**')
-            title_cols[2].write('**賃料**')
-            title_cols[3].write('**階数**')
-            title_cols[4].write('**間取り**')
-            title_cols[5].write('**広さ**')
-            title_cols[6].write('**築年数**')
-            title_cols[7].write('**駅からの距離**')
-            title_cols[8].write('**住所**')
+            title_cols[2].write('**間取り**')
+            title_cols[3].write('**平均賃料**')
+            title_cols[4].write('**敷礼**')
+            title_cols[5].write('**階数**')
+            title_cols[6].write('**広さ**')
+            title_cols[7].write('**築年数**')
+            title_cols[8].write('**駅からの距離**')
+            title_cols[9].write('**住所**')
 
             selected_indices = []
 
             # チェックボックス付きデータフレームの表示
-            for i, row in df.iterrows():
-                cols = st.columns([0.5, 2, 1, 1, 1, 1, 1, 1, 2])
+            for i, row in df_property.iterrows():
+                cols = st.columns([0.5, 2.5, 1, 1, 1, 1, 0.8, 0.8, 1, 2])
 
                 # セッションステートからチェックボックスの初期値を取得
                 if f"cb_{i}" not in st.session_state:
@@ -199,36 +208,48 @@ if 'station_df' in st.session_state:
                         selected_indices.remove(i)
 
                 cols[1].markdown(f"**[{row['property_name']}]({row['url']})**", unsafe_allow_html=True)
-                cols[2].write(row['rental_fee'])
-                cols[3].write(row['floor'])
-                cols[4].write(row['layout'])
-                cols[5].write(row['size'])
-                cols[6].write(row['building_age'])
-                cols[7].write(row['distance_station'])
-                cols[8].write(row['address'])
+                cols[2].write(row['layout'])
+                cols[3].write(str(row['avg_rental_fee'])+"円")
+                cols[4].write(str(row['avg_deposit'])+"円")
+                cols[5].write(row['floors'])
+                cols[6].write(str(row['avg_size'])+"㎡")
+                cols[7].write(str(int(row['avg_building_age']))+"年")
+                cols[8].write(str(int(row['distance_station']))+"分")
+                cols[9].write(row['address'])
 
             # 選択された物件のインデックスを保存
             st.session_state.selected_indices = selected_indices
 
         with tab_map:
             #---------地図表示---------
-            map = folium.Map(location=[35.5378631,139.5951104], zoom_start=10)
-            st_folium(map, width = 1000, height = 500)
+            map = folium.Map(location=[st.session_state.selected_station_longitude,st.session_state.selected_station_latitude ], zoom_start=17)
+            # df_facilityのデータを使ってピンを打つ
+            for _, row in df_facility.iterrows():
+                folium.Marker(
+                    location=[row['longitude'],row['latitude']], 
+                    tooltip=f"{row['store_name']} ",
+                    icon=folium.Icon(icon="home")
+                    ).add_to(map)
+            # 地図の表示
+            st_folium(map, width=1200, height=600)
 
         #---------以下、選択された物件比較情報の表示---------
         if selected_indices:
             st.write("選択された物件:")
 
-            selected_rows = df.iloc[selected_indices].copy()
+            selected_rows = df_property.iloc[selected_indices].copy()
 
             # 日本語の列名に変更
-            selected_rows.columns = ['物件名', '賃料', '階数', '間取り', '広さ', '築年数', '駅からの距離', '住所', 'URL']
+            selected_rows.columns = ['物件名','間取り','空数','平均賃料','敷礼','階数','広さ','築年数','駅からの距離','住所','URL','物件URL','緯度','経度']
 
             # リンク付きの物件名に変更
             selected_rows['物件名'] = selected_rows.apply(lambda row: f'<a href="{row["URL"]}" target="_blank">{row["物件名"]}</a>', axis=1)
 
-            # URLカラムを削除
+            # カラムを削除
             selected_rows = selected_rows.drop(columns=['URL'])
+            selected_rows = selected_rows.drop(columns=['物件URL'])
+            selected_rows = selected_rows.drop(columns=['緯度'])
+            selected_rows = selected_rows.drop(columns=['経度'])
 
             # 行列を入れ替えて表示用のデータフレームを作成
             transposed_df = selected_rows.transpose()

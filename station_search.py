@@ -25,13 +25,15 @@ def station_search(target_Station1,allowable_time1,target_Station2,allowable_tim
     query = f"""
     SELECT
         st.station_name,
-        st.ward,
         st.line,
+        st.ward,
         st.address,
         MAX(CASE WHEN tt.station_name_to = '{target_Station1}' THEN tt.travel_time END) AS time_to_target1,
         MAX(CASE WHEN tt.station_name_to = '{target_Station2}' THEN tt.travel_time END) AS time_to_target2,
         10000 AS average_rent,
-        50 AS num_properties
+        50 AS num_properties,
+        st.longitude,
+        st.latitude
     FROM 
         station st
     JOIN 
@@ -53,7 +55,7 @@ def station_search(target_Station1,allowable_time1,target_Station2,allowable_tim
     conn.close()
 
     # 空のデータフレームを定義するための列名
-    columns = ['station_name', 'line', 'ward','address','time_to_target1', 'time_to_target2','average_rent','num_properties']
+    columns = ['station_name', 'line', 'ward','address','time_to_target1', 'time_to_target2','average_rent','num_properties','longitude','latitude']
 
     # 空のデータフレームを作成
     df = pd.DataFrame(columns=columns)
