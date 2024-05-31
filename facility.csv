@@ -1,0 +1,497 @@
+﻿store_code,facility_code,store_name,address,longitude,latitude,near_station_code,near_station_name,distance
+1,1,Half Moon,"2-chōme-5-8 Ōmorihonchō, Ota City, Tokyo 143-0011, Japan",35.5787221,139.736486,180,平和島駅,143.123509
+2,1,Sukiya,"1-chōme-8-17 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5779109,139.727014,180,平和島駅,720.111339
+3,1,Sukiya,"3-chōme-1-13 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5843427,139.730843,180,平和島駅,719.600891
+4,1,Sukiya,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−25−７ エストジュール大森町 1F、2F",35.5719027,139.732351,180,平和島駅,798.615302
+5,1,Caffè PACE,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 1-chōme−29−１５ カフェパーチェ",35.5857829,139.728036,180,平和島駅,996.327813
+6,1,Habo's,"1 Chome-35 Omorihigashi, Ota City, Tokyo 143-0012, Japan",35.5767308,139.739692,180,平和島駅,489.083276
+7,1,Komeda's Coffee,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 2-chōme−13−１ イトーヨーカド 1F",35.5870186,139.732712,180,平和島駅,937.553765
+8,1,Cafe Chic,"5-chōme-30-2 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.571798,139.732113,180,平和島駅,816.165193
+9,1,Sukiya,"2-chōme-30-2 Ōmorihonchō, Ota City, Tokyo 143-0011, Japan",35.5774513,139.736484,180,平和島駅,205.287923
+10,1,McDonald's Omori-machi branch,"3-chōme-20-13 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5721951,139.731254,180,平和島駅,802.990785
+11,1,Safi,"6-chōme-13-3 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5791548,139.734527,180,平和島駅,54.1033879
+12,1,TiMELY Coffee & Drink Stand,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 6-chōme−26−１６ 東雲荘 1F",35.5783175,139.733938,180,平和島駅,101.32156
+13,1,Pao,"2-chōme-9-3 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5775215,139.734049,180,平和島駅,159.728062
+14,1,創作ビストロ ラポール 平和島,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 2-chōme−4−１０ ラポール 1階",35.579481,139.736573,180,平和島駅,169.860775
+15,1,Fianchetto,"Japan, 〒143-0012 Tokyo, Ota City, Ōmorihigashi, 1-chōme−7−２５ 大谷ビル",35.577131,139.736083,180,平和島駅,211.833655
+16,1,Cafe Nishimura,"3-chōme-30-1 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5820038,139.731623,180,平和島駅,465.586499
+17,1,ハイグラウンコーヒー,"3-chōme-42-2 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5840681,139.735678,180,平和島駅,592.387152
+18,1,Coffe&Snack ドレミ,"3-chōme-9-12 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5842936,139.733817,180,平和島駅,621.168092
+19,1,Yaguma,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 4-chōme−25−１２ 谷熊ビル",35.582143,139.72921,180,平和島駅,636.617242
+20,1,locofee,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−25−５ 大森西ダイヤモンドマンション",35.5721248,139.732204,180,平和島駅,779.059341
+21,2,Omori Sports Center,"2-chōme-2-5 Ōmorihonchō, Ota City, Tokyo 143-0011, Japan",35.580882,139.737401,180,平和島駅,325.105359
+22,2,Anytime Fitness Heiwajima,"6-chōme-26-22 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5783031,139.733406,180,平和島駅,145.512326
+23,2,KONAMI Sports Club Omorichō,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−31−８ マルエツ大森町店 3Ｆ",35.5743367,139.733456,180,平和島駅,510.915147
+24,2,東競武道館,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 1-chōme−2−８ モーターボート競走会大森宿舎",35.5872127,139.736803,180,平和島駅,953.495483
+25,2,chocoZAP Heiwajima,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 2-chōme−4−７ Blume大森 1F",35.5799346,139.736589,180,平和島駅,199.367863
+26,2,ひまわりキッズ体操教室,"Japan, 〒143-0016 Tokyo, Ota City, 大森6-chōme−32−８ 平和島ビル 2階",35.5807795,139.735888,180,平和島駅,239.661854
+27,2,㈱T&C,"6 Chome-32 Omorikita, Ota City, Tokyo 143-0016, Japan",35.5809151,139.735906,180,平和島駅,254.307826
+28,2,ビギナーフィットネスFIRST大森北,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 3-chōme−29−２７ 北トピア 101",35.5812092,139.730047,180,平和島駅,515.880684
+29,2,FASTGYM24 Omorichō,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−27−１８ 1階",35.5729892,139.732293,180,平和島駅,685.636654
+30,2,JPCスポーツ教室 大森店,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 2-chōme−13−３１ 大森プロストシティレジデンス B2階",35.5857736,139.733604,180,平和島駅,786.741654
+31,2,ダイエット&ボディメイク 本命Body make,"2-chōme-3-3 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.585427,139.731834,180,平和島駅,789.798914
+32,2,ヨガ&ピラティス｜くろねこスタジオ大森｜レンタルスタジオ,"203 4-chōme-8-9 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5845502,139.729538,180,平和島駅,804.714567
+33,2,レンタルジム｜東京｜Miraito Gym 大森店 ミライトジム｜パーソナルジム,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 4-chōme−8−９ 2F",35.5845502,139.729538,180,平和島駅,804.714567
+34,2,パーソナルトレーニングジム かたぎり塾 大森女性専門店,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 1-chōme−25−６ 安井ビル 1F",35.5851741,139.729792,180,平和島駅,848.325337
+35,2,Anytime Fitness Omorimachi,"3-chōme-16-11 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5722774,139.729349,180,平和島駅,880.322234
+36,2,バトルフィットネス大森,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 1-chōme−15−１０ 杉浦ビル 3階",35.5853555,139.729428,180,平和島駅,883.324037
+37,2,パーソナルジムビーユー大森店,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 1-chōme−19−６ 高尚ビル 6階",35.5864396,139.731587,180,平和島駅,903.257084
+38,2,Jekusa Fittonesusutajio Machinomaomoriten,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−1−３８ マチノマ大森 3F",35.5745075,139.726034,180,平和島駅,932.286982
+39,2,Neisutaisokyoshitsu Machinomaomoriko,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−1−３８ マチノマ大森 3F",35.5745075,139.726034,180,平和島駅,932.286982
+40,3,健康の樹 大森町店,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 5-chōme−6−４ ステージファースト大森西",35.572136,139.728552,180,平和島駅,935.719916
+41,3,Esprit,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 4-chōme−8−２ エスプリ",35.5845697,139.729139,180,平和島駅,828.668724
+42,3,chocoZAP Heiwajima,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 2-chōme−4−７ Blume大森 1F",35.5799346,139.736589,180,平和島駅,199.367863
+43,3,ビギナーフィットネスFIRST大森北,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 3-chōme−29−２７ 北トピア 101",35.5812092,139.730047,180,平和島駅,515.880684
+44,3,FASTGYM24 Omorichō,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−27−１８ 1階",35.5729892,139.732293,180,平和島駅,685.636654
+45,3,QuickPlusGym AIフィットネスジム,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 2-chōme−13−１ イトーヨーカドー 大森店 3階",35.5865027,139.73311,180,平和島駅,874.174798
+46,3,Jekusa Fittonesusutajio Machinomaomoriten,"Japan, 〒143-0015 Tokyo, Ota City, Ōmorinishi, 3-chōme−1−３８ マチノマ大森 3F",35.5745075,139.726034,180,平和島駅,932.286982
+47,3,training studio rootless,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 1-chōme−13−１３ ヤマニビル 3B",35.5858693,139.72862,180,平和島駅,972.027258
+48,4,7-Eleven,"3-chōme-8-1 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.574169,139.730016,180,平和島駅,676.861919
+49,4,FamilyMart,"5-chōme-10-21 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.579851,139.726527,180,平和島駅,766.98645
+50,4,7-Eleven,"3-chōme-23-7 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5721035,139.731764,180,平和島駅,794.651803
+51,4,Lawson Store 100,"1-chōme-30-7 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5855401,139.727764,180,平和島駅,991.203075
+52,4,Ministop Heiwajima Shop,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 6-chōme−25−１５ 協和ビル",35.5785706,139.731892,180,平和島駅,273.440254
+53,4,7-Eleven,"Residia Omori-Higashi, 1-chōme-7-27 Ōmorihigashi, Ota City, Tokyo 143-0012, Japan",35.5773526,139.736154,180,平和島駅,194.626828
+54,4,FamilyMart Heiwajima Old Tokaido Road,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 2-chōme−31−１４ 鈴木ビル",35.5777529,139.736161,180,平和島駅,160.866071
+55,4,Lawson,"6-chōme-14-8 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5787849,139.734072,180,平和島駅,75.3559481
+56,4,Lawson+ThreeF,"1-chōme-6-8 Ōmorihigashi, Ota City, Tokyo 143-0012, Japan",35.5769221,139.735686,180,平和島駅,218.086611
+57,4,セブンｰイレブン 大森本町二丁目店,"Japan, 〒143-0011 Tokyo, Ota City, Ōmorihonchō, 2-chōme−3−３ 川島屋本社ビル",35.580384,139.736836,180,平和島駅,249.763729
+58,4,7-Eleven Ota City Omorikita 6-Chome Shop,"6-chōme-24-13 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5787751,139.730882,180,平和島駅,363.826768
+59,4,FamilyMart Omorinishi 2-Chome Shop,"2-chōme-27-8 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5763358,139.732044,180,平和島駅,375.093287
+60,4,7-Eleven,"1-chōme-16-20 Ōmorihigashi, Ota City, Tokyo 143-0012, Japan",35.5753982,139.735364,180,平和島駅,378.082136
+61,4,Lawson,"Japan, 〒143-0016 Tokyo, Ota City, Ōmorikita, 3-chōme−39−８ 大森北ハイツ",35.5824107,139.736217,180,平和島駅,421.02955
+62,4,Lawson,"1-chōme-8-18 Ōmorihonchō, Ota City, Tokyo 143-0011, Japan",35.5833116,139.737237,180,平和島駅,546.447928
+63,4,Lawson Ota Heiwajima,"4-chōme-1-23 Heiwajima, Ota City, Tokyo 143-0006, Japan",35.5809066,139.74081,180,平和島駅,584.149415
+64,4,7-Eleven,"1-chōme-1-3 Ōmorinaka, Ota City, Tokyo 143-0014, Japan",35.5728337,139.733906,180,平和島駅,667.105284
+65,4,Lawson,"3-chōme-10-4 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5842074,139.734542,180,平和島駅,604.635777
+66,4,FamilyMart,"2-chōme-9-12 Ōmorihigashi, Ota City, Tokyo 143-0012, Japan",35.5731217,139.734396,180,平和島駅,630.612076
+67,4,7-ELEVEN Otaku Omorikita 2-Chōme Shop,"2-chōme-9-12 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5845925,139.733689,180,平和島駅,655.857578
+68,5,Keikyu Store Heiwajima,"6-chōme-13-11 Ōmorikita, Ota City, Tokyo 143-0016, Japan",35.5784744,139.734775,180,平和島駅,35.7353452
+69,5,Maruyasu Omori branch,"Japan, 〒143-0012 Tokyo, Ota City, Ōmorihigashi, 2-chōme−19−１０ 世紀コーポ大森東 １階",35.5727559,139.736343,180,平和島駅,682.11573
+70,5,Gyomu Super BIG FUN Heiwajima,"Japan, 〒143-0006 Tokyo, Ota City, Heiwajima, 1-chōme−1−１ ビッグファン平和島 １階",35.5847721,139.740845,180,平和島駅,856.06355
+71,5,Super Nambuya,"5-chōme-10-2 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5720605,139.730026,180,平和島駅,867.523724
+72,5,Yasuno Food Warehouse Machinomaomoriten,"3-chōme-1-38 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5745075,139.726034,180,平和島駅,932.286982
+73,1,Nakajima-no-ochaya,"Japan, 〒104-0046 Tokyo, Chuo City, 中央区Hamarikyūteien, １−1−１ 浜離宮恩賜庭園",35.6586034,139.76226,151,浜松町駅,585.897305
+74,1,Excelsior Caffé,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−２０, Shiodome Building, ２Ｆ ハマサイトグルメ",35.6568217,139.759378,151,浜松町駅,258.76477
+75,1,N.Y. Lounge Boutique,"1-chōme-16-2 Kaigan, Minato City, Tokyo 105-8576, Japan",35.6531802,139.76233,151,浜松町駅,529.782562
+76,1,Byron Bay Coffee Company,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 1-chōme−23−９ セゾンビル 浜松町 1F",35.6574979,139.756433,151,浜松町駅,243.646958
+77,1,cafe VAN,"Japan, 〒105-0004 Tokyo, Minato City, 港区Shinbashi, 5-chōme−17−５ TRUST VALUE SHIMBASHI 2F・3F",35.6626214,139.756033,151,浜松町駅,811.169834
+78,1,PRONTO - Shiba Daimon,"1-chōme-4-14 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6578095,139.754624,151,浜松町駅,352.352568
+79,1,Doutor,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−6−２ 浜松町262ビル １Ｆ",35.6544947,139.755431,151,浜松町駅,182.313597
+80,1,McDonald's Daimon,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 2-chōme−3−１ 常泉ビル １Ｆ",35.6567446,139.753831,151,浜松町駅,334.36878
+81,1,Tully's Coffee Hamamatsucho Station North Exit,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 1-chōme−30−３０ 浜松町スクエア １階",35.6567964,139.756499,151,浜松町駅,167.378556
+82,1,Renoir Shibadaimon,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 2-chōme−3−１ 常泉ビル 2F",35.656707,139.753899,151,浜松町駅,326.958162
+83,1,Ueshima Coffee-ten Daimon,"Japan, 〒105-0012 Tokyo, 東京都港区Shibadaimon, 2-chōme−4−１ イズミビル 1F 港区",35.656652,139.754266,151,浜松町駅,294.75847
+84,1,Café de Crié - Hamamatsuchō,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−1−３ 第二森ビル １・２Ｆ",35.6565302,139.755158,151,浜松町駅,219.211274
+85,1,Café de Crié Plus - Shiodome Shibarikyu,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング １Ｆ",35.6569001,139.758598,151,浜松町駅,214.835367
+86,1,McDonald's,"Japan, 〒105-0023 Tokyo, Minato City, Shibaura, 1-chōme−2−２ シーバンス １Ｆ",35.6495766,139.756294,151,浜松町駅,649.803326
+87,1,Twenty Eight,"1-chōme-9-1 Higashishinbashi, Minato City, Tokyo 105-7337, Japan",35.6629749,139.761247,151,浜松町駅,922.752567
+88,1,Tully's Coffee,"3-chōme-23-1 Shiba, Minato City, Tokyo 105-0014, Japan",35.6508165,139.748764,151,浜松町駅,910.42269
+89,1,煎濾,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 1-chōme−11−８ ヒエイビル",35.6587715,139.756318,151,浜松町駅,384.071669
+90,1,Starbucks Coffee - Pedi Shiodome,"Japan, 〒105-7390 Tokyo, Minato City, Higashishinbashi, 1-chōme−9−１, Tokyo Shiodome Building, 内 Pedi汐留",35.6630718,139.760828,151,浜松町駅,918.180077
+91,1,Tully's Coffee,"1-chōme-1-1 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.660038,139.752771,151,浜松町駅,650.520335
+92,1,CAFE AZUR（カフェ アジュール）,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−11−２ ホテルアジュール竹芝 4階",35.6552757,139.763249,151,浜松町駅,553.075555
+93,2,SC大門（Systemic Circulation）,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−4−４ ノア芝大門803",35.6586292,139.754663,151,浜松町駅,424.387511
+94,2,D-MAX STUDIO,"Japan, 〒105-0021 Tokyo, Minato City, Higashishinbashi, 2-chōme−3−１７ モメント汐留2F",35.6624372,139.758051,151,浜松町駅,789.038834
+95,2,全日本ヨーガセラピスト協会,"2-chōme-2-番１５号 Hamamatsuchō, Minato City, Tokyo 105-0013, Japan",35.65525,139.754851,151,浜松町駅,206.340681
+96,2,"ナップワン㈱（Nupp1,inc.）","Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−2−１５ ダイヤビル ２Ｆ",35.65525,139.754851,151,浜松町駅,206.340681
+97,2,㈱インスパ（INSPA）,"1-chōme-22-8 Hamamatsuchō, Minato City, Tokyo 105-0013, Japan",35.6572301,139.757186,151,浜松町駅,205.685913
+98,2,IN THE GYM 浜松町,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−2−１４ KIビル 2F",35.655152,139.754732,151,浜松町駅,218.050994
+99,2,"Gold's Gym Hamamatsu-cho, Tokyo","Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング 2階",35.6568945,139.758633,151,浜松町駅,216.329869
+100,2,㈱INSPA,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング3階",35.6569767,139.758668,151,浜松町駅,225.457097
+101,2,CALDO Hottoyogasutajio,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング3F",35.6569961,139.758739,151,浜松町駅,231.130672
+102,2,B-Conditioning Laboratory ビーコンディショニングラボラトリー,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−16−６ 新雅ビル 3F",35.6571197,139.754472,151,浜松町駅,308.244268
+103,2,Zero Project Hamamatsucho Studio,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−13−５ ＯＲＤビル 2F",35.6532799,139.75483,151,浜松町駅,312.62821
+104,2,F45 Training Hamamatsucho ( F45浜松町),"芝大門116ビル １F, B1F, 1-chōme-16-3 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6574457,139.754541,151,浜松町駅,327.667589
+105,2,Anytime Fitness Hamamatsuchō Shiodome,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−1−１, Acty Shiodome, ２Ｆ",35.6581635,139.758775,151,浜松町駅,343.313777
+106,2,ゴルフピラティススタジオ ゴルコア,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−4−７ アルファビル 602",35.6582077,139.754647,151,浜松町駅,386.138199
+107,2,ファイトフィット大門浜松町,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 2-chōme−1−１ 第2境野ビル 3階",35.6567769,139.753129,151,浜松町駅,393.282344
+108,2,Bravo 浜松町,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 1-chōme−9−６ マツラビル 2F",35.6512266,139.755047,151,浜松町駅,498.767731
+109,2,Choko Zap Shiba 2chome,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 2-chōme−3−１０ サトービル 1F",35.651868,139.753688,151,浜松町駅,499.223618
+110,2,Anytime Fitness - Shiba Hamamatsucho,"2-chōme-5-10 Shiba, Minato City, Tokyo 105-0014, Japan",35.6527637,139.752207,151,浜松町駅,531.44656
+111,2,セミパーソナルスタジオ Progress⁺,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 2-chōme−15−４ GREEN HOUSE 3F",35.6511096,139.753049,151,浜松町駅,601.194916
+112,2,Ai and YuKi,"R2108, 1-chōme-10-2 Higashishinbashi, Minato City, Tokyo 105-0021, Japan",35.6603865,139.759693,151,浜松町駅,602.888889
+113,3,Conrad Tokyo,"1-chōme-9-1 Higashishinbashi, Minato City, Tokyo 105-7337, Japan",35.6628932,139.76129,151,浜松町駅,916.023038
+114,3,hogushi relaxation Hamamatsucho,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−1−１６ 浜松町北田ビル ５F",35.6559721,139.754817,151,浜松町駅,219.00579
+115,3,Re . Ra . Ku Zapurinsupakutawatokyoten,"Japan, 〒105-8563 Tokyo, Minato City, Shibakōen, 4-chōme−8−１ ザ・プリンスパークタワー東京内 地下 2階",35.6554792,139.747081,151,浜松町駅,907.902758
+116,3,Mizuki Spa & Fitness,"1-chōme-9-1 Higashishinbashi, Minato City, Tokyo 105-7302, Japan",35.6631849,139.761314,151,浜松町駅,946.558754
+117,3,Ubud,"Japan, 〒105-0013 Tokyo, Minato City, Hamamatsuchō, 2-chōme−8−６ レオパレスフラット浜松町 １F",35.6540725,139.755835,151,浜松町駅,186.64262
+118,3,"Gold's Gym Hamamatsu-cho, Tokyo","Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング 2階",35.6568945,139.758633,151,浜松町駅,216.329869
+119,3,CALDO Hottoyogasutajio,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−2−３ 汐留芝離宮ビルディング3F",35.6569961,139.758739,151,浜松町駅,231.130672
+120,3,ヤスイ式骨盤矯正・骨格矯正,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 2-chōme−6−５ Stage Grande 芝大門",35.6552958,139.753765,151,浜松町駅,304.103132
+121,3,東京スイートSPA,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−16−８ 芝大門野村ビル 4F",35.6570141,139.754312,151,浜松町駅,312.6538
+122,3,アロマアクトプレミアム,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−16−８ 芝大門野村ビル 4F",35.6570141,139.754312,151,浜松町駅,312.6538
+123,3,カラダキュア 浜松町大門,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−15−７ ABC館ビル 3F",35.6570547,139.754008,151,浜松町駅,337.879611
+124,3,Anytime Fitness Hamamatsuchō Shiodome,"Japan, 〒105-0022 Tokyo, Minato City, Kaigan, 1-chōme−1−１, Acty Shiodome, ２Ｆ",35.6581635,139.758775,151,浜松町駅,343.313777
+125,3,BodyRelaxationRaku-da Hamamatsucho-Daimon,"Japan, 〒105-0012 Tokyo, Minato City, Shibadaimon, 1-chōme−4−７ アルファビル 302",35.6582077,139.754647,151,浜松町駅,386.138199
+126,3,Choko Zap Shiba 2chome,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 2-chōme−3−１０ サトービル 1F",35.651868,139.753688,151,浜松町駅,499.223618
+127,3,個室ナノミストルーム ビーナノミスト,"Japan, 〒105-0021 Tokyo, Minato City, Shiba, 1-chōme−9−９ 小林ビル 4Ｆ",35.6510924,139.754886,151,浜松町駅,518.133772
+128,3,Anytime Fitness - Shiba Hamamatsucho,"2-chōme-5-10 Shiba, Minato City, Tokyo 105-0014, Japan",35.6527637,139.752207,151,浜松町駅,531.44656
+129,3,REALWORKOUT,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 2-chōme−12−１３ 301 ASITIS",35.6512764,139.752501,151,浜松町駅,618.991702
+130,3,【 浜松町店】通い放題のマシンピラティス＆パーソナルジム Spinel.GYM（スピネルジム）,"Japan, 〒105-0014 Tokyo, Minato City, Shiba, 2-chōme−9−９ リヨンドール芝公園 1階,2階",35.6517982,139.751702,151,浜松町駅,631.767644
+131,3,株式会社UBX JAPAN,"Japan, 〒105-0023 Tokyo, Minato City, Shibaura, 1-chōme−3−１１ １Ｆ",35.6495722,139.755345,151,浜松町駅,665.700978
+132,3,chocoZAP Onarimon,"LOFworkspace, B1F, 6-chōme-20-2 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.6610948,139.754707,151,浜松町駅,671.982394
+133,4,Natural Lawson Comodio Shiodome,"2-chōme-14-1 Higashishinbashi, Minato City, Tokyo 105-0021, Japan",35.660607,139.757438,151,浜松町駅,581.786437
+134,4,7-Eleven,"2-chōme-12-7 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6540125,139.754051,151,浜松町駅,317.004667
+135,4,7-Eleven,"1-chōme-14-6 Shibadaimon, 港区 Minato City, Tokyo 105-0012, Japan",35.657207,139.753699,151,浜松町駅,370.487813
+136,4,7-Eleven,"1-chōme-2-1 Hamamatsuchō, Minato City, Tokyo 105-0013, Japan",35.6601215,139.755905,151,浜松町駅,538.607304
+137,4,Famima Shiba Park Store,"Japan, 〒105-0011 Tokyo, Minato City, Shibakōen, 2-chōme−4−１, Shiba Park Building, 1F",35.6554541,139.752361,151,浜松町駅,430.847764
+138,4,Lawson,"2-chōme-9-16 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6544385,139.75278,151,浜松町駅,406.624157
+139,4,Rieven House,"Japan, 〒105-0021 Tokyo, Minato City, Higashishinbashi, 1-chōme−9−２ 汐留住友ビル 2Ｆ",35.6621927,139.760129,151,浜松町駅,804.486272
+140,4,FamilyMart,"2-chōme-2-22 Shibakōen, Minato City, Tokyo 105-0011, Japan",35.6570413,139.750836,151,浜松町駅,597.766872
+141,4,FamilyMart Meitetsu Inn Hamamatsucho Shop,"1-chōme-19-14 Hamamatsuchō, Minato City, Tokyo 105-0013, Japan",35.6580067,139.755608,151,浜松町駅,322.686591
+142,4,Famima!!,"Japan, 〒105-0023 Tokyo, Minato City, Shibaura, 1-chōme−1−１, Hamamatsucho Building, ３階",35.6517764,139.757454,151,浜松町駅,401.874374
+143,4,FamilyMart Shiba 2-chome,"2-chōme-5-10 Shiba, Minato City, Tokyo 105-0014, Japan",35.6528881,139.752315,151,浜松町駅,515.751902
+144,4,Natural Lawson Keio Presso Inn Hamamatsucho,"1-chōme-1-26 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6592718,139.752618,151,浜松町駅,594.36271
+145,4,Natural Lawson,"1-chōme-6-3 Shibadaimon, Minato City, Tokyo 105-0012, Japan",35.6581425,139.754208,151,浜松町駅,404.922364
+146,4,FamilyMart + Miyamoto Drug,"6-chōme-17-15 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.6610613,139.751771,151,浜松町駅,795.784533
+147,4,FamilyMart Shiodome Italy town shop,"2-chōme-4-1 Higashishinbashi, Minato City, Tokyo 105-0021, Japan",35.6618202,139.757715,151,浜松町駅,717.973484
+148,4,FamilyMart,"Japan, 〒105-7390 Tokyo, Minato City, Higashishinbashi, 1-chōme−9−１ Pedi汐留 B1",35.662794,139.760733,151,浜松町駅,886.271335
+149,4,NewDays Hamamatsucho,"Japan, 〒１Ｆ Tokyo, Minato City, Kaigan, 1-chōme−3−１ JP 105-0022 JR Hamamatsucho Station, South Gate, 外コンコース",35.6550087,139.757077,151,浜松町駅,41.6505338
+150,4,FamilyMart Global Front Tower,"Global Front Tower, 1-chōme-6-41 Shibaura, 港区 Minato City, Tokyo 105-0023, Japan",35.6472244,139.755318,151,浜松町駅,921.596318
+151,4,7-Eleven,"4-chōme-3-5 Shiba, Minato City, Tokyo 108-0014, Japan",35.648975,139.750277,151,浜松町駅,943.744863
+152,4,FamilyMart,"2-chōme-6-2 Hamamatsuchō, Minato City, Tokyo 105-0013, Japan",35.6545393,139.755129,151,浜松町駅,203.455368
+153,5,㈱新橋なかむら,"6 Chome-9 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.6613863,139.755685,151,浜松町駅,680.399757
+154,5,㈱サザンクロス,"5-chōme-9-1 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.663598,139.755738,151,浜松町駅,922.300484
+155,1,AUX BACCHANALES TAKANAWA,"4-chōme-10-18 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6288756,139.73581,177,品川駅,270.331884
+156,1,Bar Marche Kodama,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−２６−２７ エキュート品川",35.6287723,139.739261,177,品川駅,56.3148782
+157,1,Tameals Café & Bar Shinagawa,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−２６−２７ エキュート品川",35.627952,139.738671,177,品川駅,58.2936483
+158,1,THE CITY BAKERY Shinagawa,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−18−１ アトレ品川 2F",35.6291202,139.740937,177,品川駅,209.553523
+159,1,CaffeLAT25°,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−1−７８ 品川駅構内",35.6282048,139.739882,177,品川駅,105.648189
+160,1,Saint Marc Cafe - Shinagawa Intercity,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−15−２ 品川インターシティ S and R Building, ２F",35.6267932,139.742011,177,品川駅,348.087482
+161,1,Lounge KOMYO,"3-chōme-13-1 Takanawa, Minato City, Tokyo 108-0074, Japan",35.631581,139.734718,177,品川駅,502.975964
+162,1,Momiji Lounge,"3-chōme-13-1 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6302316,139.733683,177,品川駅,498.877608
+163,1,GOOD MORNING CAFE 品川シーズンテラス,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2−７０ 品川シーズンテラス 2Ｆ",35.6329099,139.742974,177,品川駅,623.432315
+164,1,Los Angeles Balcony,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2, 2階",35.6325736,139.742497,177,品川駅,567.569948
+165,1,La capi,"1-chōme-30-4 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Japan",35.6205548,139.742057,177,品川駅,929.347622
+166,1,Starbucks Coffee - JR-Central Shinagawa Station Inside Ticket Gates,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−1−７８ JR-PLUS品川営業所",35.6299255,139.74031,177,品川駅,213.978426
+167,1,Excelsior Caffé,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−16−１, Shinagawa East One Tower, ２Ｆ",35.627763,139.740774,177,品川駅,198.327071
+168,1,Renoir,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−25−２２, Takanawa Kaneo Building, 1F",35.6304654,139.737826,177,品川駅,237.236133
+169,1,WP pizza bar AREA shinagawa,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−9−３６ NTTデータビル アレア品川 1F",35.6300083,139.741253,177,品川駅,282.786871
+170,1,WIRED CAFE Dining Lounge Wing Takanawa Shop,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−10−１８ ウィング高輪ＷＥＳＴⅡ ２階",35.6285094,139.737034,177,品川駅,156.036159
+171,1,McDonald's Shinagawa InterCity,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−15−２ 品川インターシティＢ棟 Ｂ１Ｆ",35.62624,139.741923,177,品川駅,378.54941
+172,1,Tea room Renoir Shinagawa Port south exit shop,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−3−２９ シーゲンビルディング 1F",35.6290876,139.742949,177,品川駅,384.799081
+173,1,Sukiya,"2-chōme-2-3 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6293278,139.742308,177,品川駅,334.538364
+174,1,Blue Bottle Coffee - Shinagawa Cafe,"2-chōme-18-1 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6289965,139.740603,177,品川駅,176.562691
+175,2,RIZAP,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−25−２２, Takanawa Kaneo Building, 8階",35.630434,139.73786,177,品川駅,232.907978
+176,2,ゴーズジム (GO'S GYM)品川店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−21−１３ CRADEL 高輪 2F",35.6263582,139.736919,177,品川駅,287.90021
+177,2,10 OVER 9 RUN CUBE 品川シーズンテラス,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2, ２f 品川シーズンテラス パークサイドゾーン ７０ ２ １",35.6327758,139.742922,177,品川駅,608.780377
+178,2,スタジオアスク品川店,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−6−３８ ６F",35.6309545,139.745417,177,品川駅,662.046147
+179,2,ベイリズム品川,"4-chōme-2-7 Kōnan, Minato City, Tokyo 108-0075, Japan",35.631052,139.748037,177,品川駅,886.219101
+180,2,My Gym,"5-chōme-5-15 Kitashinagawa, Shinagawa City, Tokyo 141-0001, Japan",35.6224665,139.730995,177,品川駅,968.687943
+181,2,竹内鍼灸治療所,"Japan, 〒141-0022 Tokyo, Shinagawa City, Higashigotanda, 2-chōme−5−１１ パラスト五反田 202号",35.6249185,139.72876,177,品川駅,986.382601
+182,2,ANYTIME FITNESS Takanawadai,"4-chōme-7-20 Higashigotanda, Shinagawa City, Tokyo 141-0022, Japan",35.6303613,139.727955,177,品川駅,998.898596
+183,2,Renjajimu Shinagawa,"Japan, 〒141-0001 Tokyo, Shinagawa City, Kitashinagawa, 5-chōme−12−１ フラワー御殿山ハイツ 1F",35.6232258,139.733888,177,品川駅,730.798336
+184,2,Fitness Center,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−16−１, Shinagawa East One Tower, 26F",35.627883,139.740855,177,品川駅,200.329375
+185,2,パーソナルジム RESET(リセット)【品川店】完全マンツーマン,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−23−４ TAKANAWA SUN HEIGHTS 102号",35.6263528,139.737481,177,品川駅,262.409366
+186,2,ピラティスムーブメントスペース,"2-chōme-14-14 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6285446,139.742095,177,品川駅,301.556123
+187,2,ポジティブボディ パーソナルトレーニングジム 品川店,"Japan, 〒108-0074 Tokyo, Shinagawa City, 港区Takanawa, 4-chōme−22−１０ 小川商事ビル B1",35.6258543,139.737401,177,品川駅,315.858065
+188,2,5sレンタルジム,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−23−１４ シャトー高輪 103",35.6309351,139.736786,177,品川駅,326.93234
+189,2,Exercise Coach Shinagawa,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−24−５１ ナミックス 品川ビル 1階",35.6257077,139.737513,177,品川駅,327.305475
+190,2,フィットボックスの公認レンタルはGYMCLOUD,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−25−２９ THE SITE2階",35.6314751,139.737915,177,品川駅,342.620986
+191,2,体育塾のジムプロ 品川教室,"4-chōme-24-58 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6252548,139.737916,177,品川駅,365.689743
+192,2,アシュタンガヨガ品川,"4-chōme-24-58 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6249284,139.737892,177,品川駅,401.684527
+193,2,フィットネスジム,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−13−１ B1",35.6309521,139.735346,177,品川駅,413.870878
+194,2,アライメント品川店（ピラティス＆整体ストレッチ）,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−4−７ 石橋ビル 501号室",35.6286596,139.744666,177,品川駅,534.197117
+195,3,Re.Ra.Ku Shinagawa Prince Hotel Store,"Japan, 〒108-8611 Tokyo, Minato City, Takanawa, 4-chōme−10−３０, Annex Tower, 2F 品川プリンスホテル",35.628035,139.735904,177,品川駅,262.629161
+196,3,かずの 港区高輪店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−16−３ ベルコート高輪 ベルコート高輪202",35.635076,139.734838,177,品川駅,815.461714
+197,3,サロンド・ルシアン品川店,"Japan, 〒140-0001 Tokyo, Shinagawa City, Kitashinagawa, 1-chōme−3−１８ K･Iビル",35.622611,139.739796,177,品川駅,658.332801
+198,3,Renjajimu Shinagawa,"Japan, 〒141-0001 Tokyo, Shinagawa City, Kitashinagawa, 5-chōme−12−１ フラワー御殿山ハイツ 1F",35.6232258,139.733888,177,品川駅,730.798336
+199,3,〜女性のための隠れ家サロン〜39spa,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−23−６ ハイホーム高輪 506",35.6260513,139.737633,177,品川駅,287.731772
+200,3,ドライヘッドスパ専門店 ゆめのまくら プレミアム 品川店 ( Dry Head Spa Speciallty Salon Yumenomakura Premium Shinagawa ),"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−23, 港区高輪３丁目２３−１４ シャトー高輪305（ご注意；さくら坂からは入れません。りそな銀行前の看板をご覧ください。ルート検索ではさくら坂へ案内されるのでご注意ください） You cannot enter from Sakurazaka. Please see the Resona Bank ATM （cash point）sign",35.6308011,139.736807,177,品川駅,313.473879
+201,3,サウナ＆ブロアバス,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−13−１ B1",35.6309675,139.735501,177,品川駅,404.681717
+202,3,Zekushisu,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−24−１６, Isa, 8階",35.6322303,139.737999,177,品川駅,423.592296
+203,3,ブラックハイフ・ハーブピーリング専門店 FLORA品川,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−8−２３ エスパシオ高輪 101",35.6288653,139.733948,177,品川駅,437.066026
+204,3,フィットネスルーム,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−13−１ 1F",35.6299857,139.733627,177,品川駅,493.50971
+205,3,麻布 品川メンズエステ ARIA-アリア-,"2-chōme-4-18 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6286682,139.744473,177,品川駅,516.807158
+206,3,adaxia合同会社 アドアクシア合同会社,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 4-chōme−13−７ ２階",35.626876,139.733233,177,品川駅,530.039608
+207,3,日本美容ストレッチアカデミー,"Japan, 〒140-0001 Tokyo, Shinagawa City, Kitashinagawa, 1-chōme−3−１８ 大崎ＫＩビル 3F",35.6226081,139.739796,177,品川駅,658.651988
+208,3,chocoZAP Kitashinagawa,"Japan, 〒140-0001 Tokyo, Shinagawa City, Kitashinagawa, 1-chōme−24−６ サンエイビルディング 1F",35.6216638,139.740195,177,品川駅,767.99249
+209,3,NAORUローリング,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−16−３ ベルコート 201",35.6350661,139.734878,177,品川駅,812.92331
+210,3,REAL WORKOUT 品川・高輪台店 | パーソナルトレーニングジム リアルワークアウト,"Japan, 〒108-0071 Tokyo, Minato City, Shirokanedai, 2-chōme−11−５ 近藤ビル 301",35.6329246,139.730695,177,品川駅,881.140337
+211,3,NEXUS（ネクサス）パーソナルジム高輪台店,"Japan, 〒108-0071 Tokyo, Minato City, Shirokanedai, 2-chōme−25−６ JOYCE 202",35.6325641,139.73038,177,品川駅,883.562002
+212,3,パーソナルトレーニングジム レブルス品川,"4 Chome-5 Konan, Minato City, Tokyo 108-0075, Japan",35.627394,139.748513,177,品川駅,889.5982
+213,3,IN THE GYM高輪,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−3−８ アヴニール高輪 B1F",35.6346016,139.732372,177,品川駅,893.295379
+214,3,Dear Life -Ethical × Fitness-,"Japan, 〒140-0001 Tokyo, Shinagawa City, Kitashinagawa, 1-chōme−28−７ ＹＫビル 2階",35.6205765,139.741153,177,品川駅,904.116685
+215,4,Lawson Shinagawa Station Central Gate,"2-chōme-14-10 Kōnan, Minato City, Tokyo 108-0075, Japan",35.628642,139.74205,177,品川駅,297.983792
+216,4,NewDays Shinagawa Central,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−２６−２７ JR 品川駅 ２Ｆ 北改札外 正面券売機脇",35.6287457,139.739042,177,品川駅,39.7506604
+217,4,FamilyMart,"4-chōme-7-35 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Japan",35.6222348,139.736917,177,品川駅,713.193419
+218,4,LAWSON Shinagawa Station Konan Exit Store,"2-chōme-2-6 Kōnan, Minato City, Tokyo 108-0075, Japan",35.62931,139.742688,177,品川駅,367.110117
+219,4,Lawson Shinagawa Grand Passage,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−16−３, Shinagawa Grand Central Tower, １Ｆ",35.6266261,139.74061,177,品川駅,264.691134
+220,4,Daily Yamazaki Keio Shinagawa Building Store,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−17−１ 京王品川ビル",35.6244159,139.739702,177,品川駅,458.910446
+221,4,㈱エムシーエムコーポレーション,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−9−１ NTT品川 TWINS",35.630604,139.742107,177,品川駅,384.39603
+222,4,7-Eleven - Minato Kōnan 1,"1-chōme-6-27 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6297407,139.745299,177,品川駅,607.606861
+223,4,Newdays + Drug Store,"Japan, 〒108-0075 Tokyo, Minato City, Takanawa, 3-chōme−26−２７ エキュート品川 サウス 内 JR 品川駅 ２Ｆ",35.6282825,139.739186,177,品川駅,43.8933707
+224,4,KIOSK Shinagawa 3,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−1−７８ JR 品川駅 構内新幹線南乗換改札口内",35.6284646,139.74012,177,品川駅,122.928785
+225,4,FamilyMart,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−9−３２ ＮＴＴＤＡＴＡ品川ビル 別館",35.6297306,139.74161,177,品川駅,293.207164
+226,4,Famima,"1-chōme-2-70 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6323353,139.74292,177,品川駅,570.948333
+227,4,7-Eleven - Shinagawa Prince Hotel,"4-chōme-10-30 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6283807,139.735759,177,品川駅,271.437135
+228,4,FamilyMart,"A-Place Shinagawa Higashi, 1-chōme-7-18 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6310216,139.744963,177,品川駅,628.262779
+229,4,Natural Lawson,"2-chōme-26-10 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6317064,139.729996,177,品川駅,869.954373
+230,4,7-Eleven Takanawadai Station,"2-chōme-26-8 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6318726,139.730259,177,品川駅,856.303162
+231,4,FamilyMart Shinagawa Grand Passage Store,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−16−５ グランパサージュ１ 2F",35.6260302,139.740691,177,品川駅,322.699887
+232,4,7-ELEVEN Grand Prince Hotel New Takanawa Store,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−13−１ グランドプリンスホテル 新高輪地下１階",35.630053,139.73349,177,品川駅,507.709662
+233,4,FamilyMart,"4-chōme-5-9 Higashigotanda, Shinagawa City, Tokyo 141-0022, Japan",35.6309166,139.728756,177,品川駅,944.092187
+234,4,FamilyMart,"4-chōme-1-10 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6296329,139.746703,177,品川駅,729.467701
+235,5,46番地GeneralStore,"4-chōme-13-7 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6268916,139.733278,177,品川駅,525.677581
+236,1,Tully’s Coffee - Shibaura Kaigan-dori Avenue,"Japan, 〒105-0023 Tokyo, Minato City, Shibaura, 4-chōme−13−２３ MS芝浦ビル 1F",35.6401142,139.747809,138,泉岳寺駅,726.393298
+237,1,GOOD MORNING CAFE 品川シーズンテラス,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2−７０ 品川シーズンテラス 2Ｆ",35.6329099,139.742974,138,泉岳寺駅,692.764804
+238,1,Gouter de maman,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 2-chōme−17−２９ １F",35.6474685,139.739871,138,泉岳寺駅,981.264496
+239,1,Lounge KOMYO,"3-chōme-13-1 Takanawa, Minato City, Tokyo 108-0074, Japan",35.631581,139.734718,138,泉岳寺駅,917.995144
+240,1,Los Angeles Balcony,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2, 2階",35.6325736,139.742497,138,泉岳寺駅,712.384755
+241,1,Doutor,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−11−７ 根本ビル",35.6426827,139.749846,138,泉岳寺駅,998.457823
+242,1,Renoir,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−25−２２, Takanawa Kaneo Building, 1F",35.6304654,139.737826,138,泉岳寺駅,929.979253
+243,1,Starbucks Coffee - JR-Central Shinagawa Station Inside Ticket Gates,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 2-chōme−1−７８ JR-PLUS品川営業所",35.6299255,139.74031,138,泉岳寺駅,969.942754
+244,1,WP pizza bar AREA shinagawa,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−9−３６ NTTデータビル アレア品川 1F",35.6300083,139.741253,138,泉岳寺駅,967.161139
+245,1,ベルエキップ,"Japan, 〒108-0072 Tokyo, Minato City, Shirokane, 1-chōme−14−４ 小宮ビル1階",35.645314,139.733878,138,泉岳寺駅,923.999081
+246,1,Sukiya,"4-chōme-9-18 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6397376,139.747112,138,泉岳寺駅,656.123251
+247,1,L'atelier Cocco,"4-chōme-3-18 Mita, Minato City, Tokyo 108-0073, Japan",35.6450885,139.738639,138,泉岳寺駅,726.708486
+248,1,PIVOT,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 5-chōme−16−１６ 白石ビル",35.6455819,139.735967,138,泉岳寺駅,852.296694
+249,1,Muan (Tea house),"1-chōme-1-76 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6383026,139.730025,138,泉岳寺駅,900.19211
+250,1,グランドプリンスホテル高輪 クラブラウンジ花雅,"3-chōme-13-1 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6316581,139.734872,138,泉岳寺駅,903.508914
+251,1,コミュニティカフェForYou,"3-chōme-18-15 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6331577,139.735704,138,泉岳寺駅,722.000822
+252,1,Starbucks Coffee - Shirokane-Takanawa,"Japan, 〒108-0072 Tokyo, Minato City, Shirokane, 1-chōme−17−２−１０２ アエルシティ",35.6443103,139.734204,138,泉岳寺駅,818.005206
+253,1,Shirokane Coffee House,"1-chōme-4-20 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6436701,139.736125,138,泉岳寺駅,658.405638
+254,1,カフェバー ニューたんぽぽ,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−14−１６ 庭田ビル",35.6425124,139.74715,138,泉岳寺駅,777.942807
+255,1,Carol,"2-chōme-6-20-103 Takanawa, Minato City, Tokyo 108-0074, Japan",35.636004,139.733237,138,泉岳寺駅,676.147667
+256,2,Curves Takanawa,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−26−２０ アムス高輪 2F",35.6371263,139.73321,138,泉岳寺駅,634.423516
+257,2,Anytime Fitness Sengakuji Ekimae,"3-chōme-11-22 Mita, Minato City, Tokyo 108-0073, Japan",35.6401381,139.741166,138,泉岳寺駅,197.830658
+258,2,Anytime Fitness Shibaura,"4-chōme-17-3 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6370505,139.747119,138,泉岳寺駅,669.290585
+259,2,10 OVER 9 RUN CUBE 品川シーズンテラス,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−2, ２f 品川シーズンテラス パークサイドゾーン ７０ ２ １",35.6327758,139.742922,138,泉岳寺駅,704.725181
+260,2,トレーニングジムSTUDIO BRAVO SHIBAURA,"Japan, 〒105-0023 Tokyo, Minato City, Shibaura, 3-chōme−14−１７ 肥後ビル ５F",35.6425527,139.747246,138,泉岳寺駅,787.611936
+261,2,㈱ロコムーブ,"Japan, 〒108-0073 Tokyo, 港区三田Mita, 5-chōme−6, ５−６−８ ナカムラビル4F",35.646591,139.739842,138,泉岳寺駅,883.727674
+262,2,都ヘルスクラブ,"Japan, 〒108-0071 東京都港区白金台1-1−５０",35.6389876,139.730209,138,泉岳寺駅,883.593141
+263,2,RIZAP,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−25−２２, Takanawa Kaneo Building, 8階",35.630434,139.73786,138,泉岳寺駅,932.771927
+264,2,プラスケアパーソナル,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−6−３ 協栄ビル 3F",35.6434816,139.748903,138,泉岳寺駅,969.464491
+265,2,スタジオアスク品川店,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−6−３８ ６F",35.6309545,139.745417,138,泉岳寺駅,986.330493
+266,2,SHARE TAKANAWA,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 2-chōme−16−３２ 横川ビル ３Ｆ",35.6377886,139.739267,138,泉岳寺駅,114.767574
+267,2,エイジングFIT,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 2-chōme−16−２ U201",35.6399854,139.739004,138,泉岳寺駅,173.134931
+268,2,インフィニティスタジオ,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 2-chōme−19−２０ 財界二世学院ビル 4階",35.6400089,139.741113,138,泉岳寺駅,183.200402
+269,2,高輪 陽壽院 寺ヨガ,"2-chōme-1-21 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6384089,139.737807,138,泉岳寺駅,197.883546
+270,2,AOHAL,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 4-chōme−18−１４ エスセナーリオ三田",35.6403627,139.738528,138,泉岳寺駅,231.638114
+271,2,Studio Loa,"4-chōme-18-14 Mita, Minato City, Tokyo 108-0073, Japan",35.6403627,139.738528,138,泉岳寺駅,231.638114
+272,2,ハイエックス白金高輪,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−5−２１ ルート高輪ビル B1F",35.6410239,139.73756,138,泉岳寺駅,343.094164
+273,2,chocoZAP,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−7−１５ 第3御田八幡ビル 1F",35.6429591,139.742024,138,泉岳寺駅,514.22529
+274,2,ボクシングの木,"1-chōme-16-25 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6404849,139.734408,138,泉岳寺駅,543.296751
+275,2,パーソナルジム かたぎり塾 白金高輪店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−5−４６ 山中ビル 1階",35.6427315,139.736004,138,泉岳寺駅,579.210408
+276,3,Curves Takanawa,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−26−２０ アムス高輪 2F",35.6371263,139.73321,138,泉岳寺駅,634.423516
+277,3,かずの 港区高輪店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−16−３ ベルコート高輪 ベルコート高輪202",35.635076,139.734838,138,泉岳寺駅,610.830813
+278,3,セッツ (Set’s),"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−27−２４ ザレジデンス",35.6361501,139.732835,138,泉岳寺駅,702.477767
+279,3,Heasaronono Miyakohoteruten,"Japan, 〒108-0071 Tokyo, Minato City, Shirokanedai, 1-chōme−1−５０ シェラトン都ホテル 東京 B1",35.6396408,139.73021,138,泉岳寺駅,889.593902
+280,3,プラスケアパーソナル,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−6−３ 協栄ビル 3F",35.6434816,139.748903,138,泉岳寺駅,969.464491
+281,3,chocoZAP,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−7−１５ 第3御田八幡ビル 1F",35.6429591,139.742024,138,泉岳寺駅,514.22529
+282,3,パーソナルジム かたぎり塾 白金高輪店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−5−４６ 山中ビル 1階",35.6427315,139.736004,138,泉岳寺駅,579.210408
+283,3,NAORUローリング,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−16−３ ベルコート 201",35.6350661,139.734878,138,泉岳寺駅,608.839984
+284,3,SOU+,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−17−１５ オーク高輪ビル 3F",35.6402986,139.733183,138,泉岳寺駅,640.911133
+285,3,COCO美容研究所 白金高輪店,"Lexington Square Shirokane Takanawa, 2104 1-chōme-4-3 Shirokane, Minato City, Tokyo 108-0074, Japan",35.6425478,139.734268,138,泉岳寺駅,674.256215
+286,3,日本美容ストレッチアカデミー,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−20−３ 白ゆりビル2F",35.6421855,139.746667,138,泉岳寺駅,721.473211
+287,3,Zekushisu,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−24−１６, Isa, 8階",35.6322303,139.737999,138,泉岳寺駅,735.247474
+288,3,Premium Machine Pilates 白金高輪駅前店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−2−１６, Flatwell Takanawa, 6F-C",35.644241,139.735205,138,泉岳寺駅,757.122243
+289,3,パーソナルトレーニングジムRESET 白金高輪店,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 1-chōme−2−１６, Flatwell Takanawa, 5D号",35.644241,139.735205,138,泉岳寺駅,757.122243
+290,3,Habit Pilates studio(ハビット ピラティス スタジオ) 白金高輪店,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 5-chōme−11−１４ ＡＳ ＯＮＥ白金高輪 1F",35.6456399,139.738232,138,泉岳寺駅,793.707983
+291,3,Care Salon HANAMURA,"5 Chome-16 Mita, Minato City, Tokyo 108-0073, Japan",35.645287,139.73602,138,泉岳寺駅,820.656368
+292,3,IN THE GYM高輪,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−3−８ アヴニール高輪 B1F",35.6346016,139.732372,138,泉岳寺駅,821.262653
+293,3,マタニティ整体白金店～Salon accoucher～,"Japan, 〒108-0072 Tokyo, Minato City, Shirokane, 1-chōme−25−１５ 平野ビル 202",35.6439071,139.732741,138,泉岳寺駅,877.538516
+294,3,ドライヘッドスパ専門店 ゆめのまくら プレミアム 品川店 ( Dry Head Spa Speciallty Salon Yumenomakura Premium Shinagawa ),"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−23, 港区高輪３丁目２３−１４ シャトー高輪305（ご注意；さくら坂からは入れません。りそな銀行前の看板をご覧ください。ルート検索ではさくら坂へ案内されるのでご注意ください） You cannot enter from Sakurazaka. Please see the Resona Bank ATM （cash point）sign",35.6308011,139.736807,138,泉岳寺駅,917.970293
+295,3,サウナ＆ブロアバス,"Japan, 〒108-0074 Tokyo, Minato City, Takanawa, 3-chōme−13−１ B1",35.6309675,139.735501,138,泉岳寺駅,944.597681
+296,4,Natural Lawson Shibaura Kaigan-dōri,"4-chōme-13-23 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6405244,139.747932,138,泉岳寺駅,748.626621
+297,4,Natural Lawson Shibaura Island Cape Shop,"4-chōme-19-1 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6373991,139.750448,138,泉岳寺駅,956.282219
+298,4,FamilyMart,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−4−１ グランパークプラザ",35.6440391,139.745983,138,泉岳寺駅,808.942407
+299,4,Lawson,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−9−９ 森伝ビル １階",35.6411434,139.74091,138,泉岳寺駅,290.391174
+300,4,7-Eleven,"3-chōme-11-22 Mita, Minato City, Tokyo 108-0073, Japan",35.640151,139.741206,138,泉岳寺駅,201.025842
+301,4,Lawson Store 100 Takanawa 1-chome,"1-chōme-26-13 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6377116,139.73366,138,泉岳寺駅,580.206715
+302,4,7-Eleven,"Capital Mark Tower, 4-chōme-10-1 Shibaura, Minato City, Tokyo 108-0023, Japan",35.641197,139.746438,138,泉岳寺駅,649.185669
+303,4,7-Eleven Shibaura 4-Chome Shop,"4-chōme-15-33 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6385318,139.747297,138,泉岳寺駅,661.601543
+304,4,Famima,"1-chōme-2-70 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6323353,139.74292,138,泉岳寺駅,750.240228
+305,4,7-Eleven Shibaura 3-chome,"3-chōme-14-15 Shibaura, 港区 Minato City, Tokyo 105-0023, Japan",35.6424115,139.747025,138,泉岳寺駅,762.31882
+306,4,Natural Lawson,"Japan, 〒108-0072 Tokyo, Minato City, Shirokane, 1-chōme−12−１４ グレイス白金",35.645283,139.734986,138,泉岳寺駅,865.083534
+307,4,FamilyMart,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−11−３４ センチュリー三田ビル",35.6416737,139.741829,138,泉岳寺駅,376.132149
+308,4,㈱エムシーエムコーポレーション,"Japan, 〒108-0075 Tokyo, Minato City, Kōnan, 1-chōme−9−１ NTT品川 TWINS",35.630604,139.742107,138,泉岳寺駅,914.516131
+309,4,FamilyMart,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−4−６ マートルコート三田",35.6466372,139.743266,138,泉岳寺駅,937.146374
+310,4,FamilyMart,"A-Place Shinagawa Higashi, 1-chōme-7-18 Kōnan, Minato City, Tokyo 108-0075, Japan",35.6310216,139.744963,138,泉岳寺駅,959.90902
+311,4,FamilyMart Tamachi East Gate,"3-chōme-13-3 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6430254,139.749217,138,泉岳寺駅,966.682102
+312,4,Lawson,"2-chōme-6-10 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6356662,139.731027,138,泉岳寺駅,874.01209
+313,4,Lawson,"3-chōme-4-15 Mita, Minato City, Tokyo 108-0073, Japan",35.6468609,139.744251,138,泉岳寺駅,991.932393
+314,4,Riven House Mita Twin Building Store,"Japan, 〒108-6301 Tokyo, Minato City, Mita, 3-chōme−5−２７ ツインビル西館 １Ｆ 住友不動産",35.643554,139.742233,138,泉岳寺駅,582.763695
+315,4,Lawson,"3-chōme-5-25 Shibaura, Minato City, Tokyo 108-0023, Japan",35.6430825,139.746735,138,泉岳寺駅,785.138701
+316,5,Peacock,"Japan, 〒108-0073 Tokyo, Minato City, Mita, 4-chōme−9−７ Bprレジデンス三田伊皿子坂 1階 コンフォリア",35.641169,139.737879,138,泉岳寺駅,338.771258
+317,5,Peacock,"1-chōme-5-1 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6435185,139.736379,138,泉岳寺駅,632.027012
+318,5,Hanamasa,"Japan, 〒108-0023 Tokyo, Minato City, Shibaura, 3-chōme−15−９ ジャパンミート芝浦ビル 1F・ 2F",35.6421535,139.74788,138,泉岳寺駅,813.799506
+319,5,Yahoo!マート by ASKUL 三田店 ネットスーパー,"3-chōme-13-16 Mita, Minato City, Tokyo 108-0073, Japan",35.64374,139.743465,138,泉岳寺駅,648.372549
+320,5,Summit Store Mita,"5-chōme-11-12 Mita, Minato City, Tokyo 108-0073, Japan",35.6456482,139.738536,138,泉岳寺駅,789.615746
+321,5,OK Store Fudanotsuji,"Japan, 〒108-0014 Tokyo, Minato City, Shiba, 5-chōme−36−４ 札の辻スクエア ２階",35.6450673,139.744646,138,泉岳寺駅,829.510229
+322,1,GROVE cafe&green,"4-chōme-14-13 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6048664,139.738545,178,青物横丁駅,633.897125
+323,1,ソカロ,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−52−５ 青木ビル",35.60491,139.734161,178,青物横丁駅,933.948653
+324,1,Starbucks Coffee - etomo Oimachi,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−1−１ エトモ大井町",35.6076498,139.734467,178,青物横丁駅,790.986857
+325,1,DICE,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−2−３ ２Ｆ",35.6080383,139.735704,178,青物横丁駅,672.399958
+326,1,ボードゲーム＆M:tG喫茶 天岩庵,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 5-chōme−3−３０ TKビル 2F",35.6118668,139.74031,178,青物横丁駅,375.8093
+327,1,SUKIYA Daiichi Keihin Samezu Shop,"4-chōme-7-11 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.604608,139.741356,178,青物横丁駅,539.881329
+328,1,“The Garden” Café & Bar カフェ＆バー “ザ・ガーデン,"1-chōme-50-5 Ōi, Shinagawa City, Tokyo 140-0014, Japan",35.6052324,139.734327,178,青物横丁駅,902.809001
+329,1,McDonald's,"4-chōme-12-5 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.610976,139.749113,178,青物横丁駅,585.317811
+330,1,COFFEE&BAR 小さな部屋,"2-chōme-30-25 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Japan",35.6175415,139.744235,178,青物横丁駅,925.653099
+331,1,サンマルクカフェ+R 阪急大井町ガーデン店,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−50−５ 阪急大井町ガーデン １・２F",35.6052646,139.734068,178,青物横丁駅,921.409882
+332,1,Starbucks Coffee - Hankyu Oimachi Garden,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−50−５ 新阪急大井町ビル",35.6052646,139.734068,178,青物横丁駅,921.409882
+333,1,Cafe Musica,"2-chōme-4-1 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6099644,139.742642,178,青物横丁駅,82.2077082
+334,1,McDonald's,"1-chōme-2-20 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6054983,139.74261,178,青物横丁駅,421.787567
+335,1,Mauka Meadows,"Japan, 〒140-0014 Tokyo, Shinagawa City, 品川区Ōi, 1-chōme−2−１ アトレ大井町 5F",35.6059736,139.73498,178,青物横丁駅,811.596123
+336,1,Marble,"5-chōme-9-19 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6105189,139.739547,178,青物横丁駅,339.886621
+337,1,Coffee Roast House KALDi,"5-chōme-1-20 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6123566,139.740449,178,青物横丁駅,411.814878
+338,1,Doutor,"2-chōme-17-9 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Japan",35.6181166,139.741258,178,青物横丁駅,994.975399
+339,1,a la campagne,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１ アトレ大井町 ２Ｆ",35.6061987,139.734786,178,青物横丁駅,816.431722
+340,1,GINZA Cozy Corner,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−3−６ イトーヨーカドー大井町店 2F",35.6070783,139.734296,178,青物横丁駅,822.655353
+341,1,Beans Station coffee,"2-chōme-1-14 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6144678,139.741827,178,青物横丁駅,586.342144
+342,2,Shinagawa Health Center,"７階, 3-chōme-11-22 4 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Japan",35.6165289,139.7407,178,青物横丁駅,832.139999
+343,2,Jexer Fitness & Spa Oimachi,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１ アトレ大井町店 7F",35.6061237,139.734845,178,青物横丁駅,815.197371
+344,2,Konami Sports Club Head Gym,"4-chōme-10-1 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.6080101,139.745932,178,青物横丁駅,301.576691
+345,2,"Gold's Gym, South Tokyo","5-chōme-2-1 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6080293,139.735668,178,青物横丁駅,675.826066
+346,2,Anytime Fitness Minami-Shinagawa,"2-chōme-2-7 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6122146,139.742182,178,青物横丁駅,334.345878
+347,2,BEYOND 青物横丁店,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−１ 品川ＹＭＤビル 7階",35.6100949,139.74267,178,青物横丁駅,95.0346342
+348,2,Dangan品川ボクシングフィットネス,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−5−２ 青物横丁井門ビル ４F",35.610488,139.742889,178,青物横丁駅,134.673115
+349,2,LAVA,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−７ アサミビル 11F",35.610573,139.74249,178,青物横丁駅,150.625416
+350,2,フィットネスジム FIT PLACE24 青物横丁店,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−７ アサミビル 2F",35.6105632,139.74245,178,青物横丁駅,150.695455
+351,2,ACCESSアクセス,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 3-chōme−7−１ 小松崎ビル",35.6074206,139.74427,178,青物横丁駅,237.137002
+352,2,FIGO パーソナルジム 品川,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 3-chōme−7−１ 小松崎ビル 1F",35.6073969,139.744267,178,青物横丁駅,239.283839
+353,2,chocoZAP SamejimaHigashi,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 1-chōme−3−１７ エクセルスマート東大井 1F",35.605031,139.743468,178,青物横丁駅,474.413223
+354,2,MIYAZAKI GYM大井町店,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−7−３ ラビアンナメキ 101",35.6073376,139.737764,178,青物横丁駅,518.934826
+355,2,Siriusu Gym,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 4-chōme−5−２３ 品川鐵工ビル",35.6133788,139.739536,178,青物横丁駅,552.207039
+356,2,永山運動室,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 4-chōme−5−２３ 品川鐵工ビル 102 シリウス",35.6134018,139.739551,178,青物横丁駅,553.573997
+357,2,CLUB PILATES 品川シーサイド,"Japan, 〒140-0002 Tokyo, Shinagawa City, Higashishinagawa, 4-chōme−12−６ B1F",35.6102271,139.749302,178,青物横丁駅,580.808572
+358,2,パーソナルジム かたぎり塾 大井町店,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−1−９ １階",35.6080623,139.736592,178,青物横丁駅,593.445087
+359,2,K太郎道場,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−2−３ ４F",35.6080383,139.735704,178,青物横丁駅,672.399958
+360,2,STUDIO MUNI（スタジオ ムニ）,"5-chōme-24-17 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6053986,139.737242,178,青物横丁駅,675.062136
+361,2,東京 品川 格闘技スクール OFC,"5-chōme-2-1 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6081069,139.735644,178,青物横丁駅,676.215115
+362,3,Jexer Fitness & Spa Oimachi,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１ アトレ大井町店 7F",35.6061237,139.734845,178,青物横丁駅,815.197371
+363,3,Kitashinagawa Spa Tenjinyu,"Japan, 〒140-0001 Tokyo, Shinagawa City, Kitashinagawa, 2-chōme−23−９ ルネスアヴニール",35.6179143,139.743344,178,青物横丁駅,960.719525
+364,3,Shibon Feisharisutosaron Oimachiten,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−10−２ ＹＫ－5ビル 5Ｆ",35.607487,139.732856,178,青物横丁駅,937.077744
+365,3,"Gold's Gym, South Tokyo","5-chōme-2-1 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6080293,139.735668,178,青物横丁駅,675.826066
+366,3,Taikoshikimassaji Waigaden Oimachiten,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 6-chōme−18−２１ フラワー MT2F",35.608221,139.736748,178,青物横丁駅,575.89403
+367,3,Anytime Fitness Minami-Shinagawa,"2-chōme-2-7 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6122146,139.742182,178,青物横丁駅,334.345878
+368,3,BEYOND 青物横丁店,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−１ 品川ＹＭＤビル 7階",35.6100949,139.74267,178,青物横丁駅,95.0346342
+369,3,LAVA,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−７ アサミビル 11F",35.610573,139.74249,178,青物横丁駅,150.625416
+370,3,フィットネスジム FIT PLACE24 青物横丁店,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−4−７ アサミビル 2F",35.6105632,139.74245,178,青物横丁駅,150.695455
+371,3,BautySalon Rui 青物横丁,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−17−１７ 青物横丁大井町脱毛フェイシャルエステ",35.611048,139.744646,178,青物横丁駅,247.499669
+372,3,アユタヤカー｜品川 青物横丁 タイ古式マッサージ,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 3-chōme−6−３１ ハイツ柳 1F",35.6075293,139.744865,178,青物横丁駅,258.44624
+373,3,chocoZAP SamejimaHigashi,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 1-chōme−3−１７ エクセルスマート東大井 1F",35.605031,139.743468,178,青物横丁駅,474.413223
+374,3,整体美容新リンパサロン大井町,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 6-chōme−7−４５ 晴美荘 1",35.6110129,139.737081,178,青物横丁駅,567.34557
+375,3,パーソナルジム かたぎり塾 大井町店,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−1−９ １階",35.6080623,139.736592,178,青物横丁駅,593.445087
+376,3,CREAR 大井町（クレアール オオイマチ）,"5-chōme-4-16 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6077038,139.736408,178,青物横丁駅,619.792
+377,3,"Smart Stay SHIZUKU Oimachi, Shinagawa","5-chōme-2-8 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6076797,139.735918,178,青物横丁駅,663.106629
+378,3,miel,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−14−１６ 糸日谷ビル 303",35.6063982,139.736403,178,青物横丁駅,675.718506
+379,3,プライベートサウナLESSS,"5-chōme-2-13 2F･3F Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6078189,139.735492,178,青物横丁駅,696.503389
+380,3,BEYOND 大井町店,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−16−９ フィルパーク大井町駅前6階",35.6070572,139.735429,178,青物横丁駅,726.326596
+381,3,Curves,"1-chōme-2-6 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6161697,139.742582,178,青物横丁駅,767.038424
+382,4,7-Eleven,"4-chōme-9-21 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.6089981,139.745269,178,青物横丁駅,208.886713
+383,4,Lawson H Samezu,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 1-chōme−4−１７ 三栄ビル",35.6050669,139.744987,178,青物横丁駅,502.188085
+384,4,Ribenhausu Shinagawa Bldg. Ten,"Japan, 〒140-0002 Tokyo, Shinagawa City, Higashishinagawa, 4-chōme−10−２７ 住友不動産品川ビル ２Ｆ",35.6070525,139.745824,178,青物横丁駅,356.684617
+385,4,FamilyMart,"1-chōme-3-23 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.60479,139.743214,178,青物横丁駅,499.619501
+386,4,NEWDAYS MINI,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１２ JR 大井町駅 1F_東口改札内",35.6076609,139.73515,178,青物横丁駅,730.759013
+387,4,NewDays りんかい大井町,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１０ りんかい線大井町駅１Ｆ＿改札外コンコース",35.6069998,139.734719,178,青物横丁駅,789.00669
+388,4,LAWSON+toks,"1-chōme-1-1 Ōi, Shinagawa City, Tokyo 140-0014, Japan",35.6076472,139.734187,178,青物横丁駅,815.755618
+389,4,FamilyMart,"1-chōme-50-5 Ōi, Shinagawa City, Tokyo 140-0014, Japan",35.6053933,139.734429,178,青物横丁駅,885.916364
+390,4,7-Eleven,"3-chōme-18-1 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.6139166,139.75011,178,青物横丁駅,825.181544
+391,4,Lawson,"5-chōme-3-7 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6073981,139.735836,178,青物横丁駅,679.215639
+392,4,7-Eleven,"2-chōme-13-13 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6012091,139.739617,178,青物横丁駅,947.579573
+393,4,7-Eleven,"3-chōme-1-20 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6095527,139.742915,178,青物横丁駅,31.0267905
+394,4,7-Eleven,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 5-chōme−4−１ 柴金酒店ビル 1F",35.6110954,139.741353,178,青物横丁駅,250.040065
+395,4,7-Eleven Shinagawa Higashi-Ōi 5-chome,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−1−１２ K-13かんべ土地",35.6078928,139.73636,178,青物横丁駅,618.313323
+396,4,Ministop,"Japan, 〒140-0002 Tokyo, Shinagawa City, Higashishinagawa, 4-chōme−12−１, Shinagawa Seaside South Tower, 1F",35.6083523,139.748097,178,青物横丁駅,473.591714
+397,4,Lawson Store 100,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 2-chōme−17−３７ 中台ビル",35.612758,139.74432,178,青物横丁駅,405.232801
+398,4,7-Eleven Shinagawa Higashioi Shop,"3-chōme-11-21 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6038443,139.737024,178,青物横丁駅,809.663018
+399,4,Lawson Shinagawa Seaside Forest,"4-chōme-12-8 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.6092469,139.748837,178,青物横丁駅,529.18162
+400,4,Lawson,"5-chōme-15-16 Higashiōi, Shinagawa City, Tokyo 140-0011, Japan",35.6070353,139.735921,178,青物横丁駅,685.508653
+401,4,7-Eleven,"3-chōme-6-1 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6106113,139.744311,178,青物横丁駅,190.605038
+402,5,Aeon Style - Shinagawa Seaside,"4-chōme-12-5 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",35.6107268,139.749026,178,青物横丁駅,569.417738
+403,5,SEIJO ISHII atré Ōimachi Store,"Japan, 〒140-0014 Tokyo, Shinagawa City, Ōi, 1-chōme−2−１ アトレ大井町 １F",35.6059107,139.734896,178,青物横丁駅,821.55537
+404,5,OK Store Aomonoyokocho,"3-chōme-4-1 Minamishinagawa, Shinagawa City, Tokyo 140-0004, Japan",35.6086288,139.74354,178,青物横丁駅,88.0818578
+405,5,Hanamasa,"Japan, 〒140-0011 Tokyo, Shinagawa City, Higashiōi, 5-chōme−2−３ かんべ土地Ｋ－１５ビル 地下１階",35.6080436,139.735672,178,青物横丁駅,675.155579
+406,5,mini Piago,"Japan, 〒140-0004 Tokyo, Shinagawa City, Minamishinagawa, 5-chōme−3−２９ グリンテル南品川",35.6118042,139.740273,178,青物横丁駅,372.645006
+407,1,Civitas,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−69−１ 東急プラザ蒲田 4F",35.5618412,139.71543,179,京急蒲田駅,791.048224
+408,1,Freshness Burger Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−28−１８ 京急ＥＸイン蒲田 １階",35.562032,139.71998,179,京急蒲田駅,385.60187
+409,1,Deli&Roux De France Keikyu Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 4-chōme−50−11｢ ウイングキッチン京急蒲田 」１F",35.5605594,139.723564,179,京急蒲田駅,99.3153443
+410,1,La Maison ensoleille table,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館 3F",35.5624867,139.71619,179,京急蒲田駅,731.847598
+411,1,Mayanchi,"5-chōme-43-7 Kamata, Ota City, Tokyo 144-0052, Japan",35.5604723,139.717208,179,京急蒲田駅,635.019625
+412,1,Coral,"3-chōme-10-14 Minamikamata, Ota City, Tokyo 144-0035, Japan",35.5535954,139.726904,179,京急蒲田駅,893.720272
+413,1,Cafe ig,"Japan, 〒144-0035 Tokyo, Ota City, Minamikamata, 1-chōme−9−１ 本間ビル 1階-c",35.559243,139.725818,179,京急蒲田駅,275.309687
+414,1,Starbucks Coffee - Granduo Kamata,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館",35.5622605,139.71612,179,京急蒲田駅,733.992853
+415,1,Coffee Room Renoir Kamata Nishi-guchi,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 8-chōme−1−７ グランタウンビル 2F",35.561288,139.714882,179,京急蒲田駅,838.445309
+416,1,Tsubakiya Cafe Granduo Kamata,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田西館 4F",35.5624867,139.71619,179,京急蒲田駅,731.847598
+417,1,Tully's Coffee,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 4-chōme−50−１１ ウイングキッチン京急蒲田 １Ｆ",35.5605594,139.723564,179,京急蒲田駅,99.3153443
+418,1,Kinema Future Center,"2-chōme-20-2 Higashikamata, Ota City, Tokyo 144-0031, Japan",35.5622007,139.728861,179,京急蒲田駅,437.296986
+419,1,Sukiya,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 4-chōme−42−１２ 新生企業蒲田新生ビル 1F",35.5589836,139.718709,179,京急蒲田駅,556.368291
+420,1,VIE DE FRANCE Rêve de Paris Kamata,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−13−６８ １「 グランデュオ蒲田西館 」１Ｆ",35.5624867,139.71619,179,京急蒲田駅,731.847598
+421,1,Ginza Ranzu,"２F, 7-chōme-66-10 Nishikamata, Ota City, Tokyo 144-0051, Japan",35.5622881,139.714826,179,京急蒲田駅,850.438742
+422,1,Coffee Shop Porsche,"Japan, 〒143-0014 Tokyo, Ota City, Ōmorinaka, 2-chōme−23−８ グリーンハイツ",35.5666572,139.730476,179,京急蒲田駅,824.79998
+423,1,Sukiya,"Japan, 〒144-0035 Tokyo, Ota City, Minamikamata, 3-chōme−3−１ 糀谷駅前ビル 1F",35.5542731,139.7286,179,京急蒲田駅,880.320826
+424,1,Cafe Bonheur,"1-chōme-14-1 Nishikōjiya, Ota City, Tokyo 144-0034, Japan",35.5591402,139.730224,179,京急蒲田駅,600.21828
+425,1,ibah-TABLE,"5-chōme-14-4 Nishikamata, Ota City, Tokyo 144-0051, Japan",35.5663239,139.716123,179,京急蒲田駅,915.222765
+426,1,Tully’s Coffee - Tokyu Plaza Kamata,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−69−１ 東急プラザ蒲田 3F",35.5616833,139.715218,179,京急蒲田駅,809.094369
+427,2,Climbing Gym Krimp,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 3-chōme−14−１５ ロイヤルプラザ地下 1階",35.5628544,139.724393,179,京急蒲田駅,172.633669
+428,2,Konami Sports Club Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−47−７ マルエツ蒲田店 5Ｆ",35.5596043,139.716054,179,京急蒲田駅,756.714474
+429,2,URUSHI DOJO,"3-chōme-20-2 Kamata, Ota City, Tokyo 144-0052, Japan",35.5626016,139.723867,179,京急蒲田駅,145.422036
+430,2,加圧スタジオRitz,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 3-chōme−17−１９ ビューティサロンハスヌマ 1F",35.5629117,139.721806,179,京急蒲田駅,276.665518
+431,2,Anytime Fitness Kamata,"5-chōme-30-11 Kamata, Ota City, Tokyo 144-0052, Japan",35.5616891,139.719302,179,京急蒲田駅,440.596306
+432,2,Anytime Fitness Umeyashiki,"6-chōme-11-17 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5682847,139.724044,179,京急蒲田駅,775.121972
+433,2,Jexer Refresh Studio sopra,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館RF(屋上階",35.5624498,139.715612,179,京急蒲田駅,782.624604
+434,2,ビギナーフィットネスFIRST 蒲田店,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 1-chōme−3−２ コーポプラグレス １０２",35.5685546,139.721545,179,京急蒲田駅,838.872236
+435,2,RK蒲田ボクシングファミリー,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−20−７ Ｋ５２０ビル 3F",35.5618311,139.7187,179,京急蒲田駅,496.376187
+436,2,TIPNESS Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−28−８, She-Bop, 3 5F",35.5616894,139.720379,179,京急蒲田駅,343.703207
+437,2,Y'ZDGYM,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−5−１２ 新中央ビル 4階",35.5636786,139.715107,179,京急蒲田駅,859.311334
+438,2,極真空手 蒲田道場,"1-chōme-18-10 Kamata, Ota City, Tokyo 144-0052, Japan",35.5646813,139.72175,179,京急蒲田駅,432.802384
+439,2,R-TRUCK 京急蒲田,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 3-chōme−15−１５ 9Ferio蒲田 III101",35.5629494,139.724256,179,京急蒲田駅,182.052102
+440,2,パーソナルジム Groundworks 京急蒲田店/蒲田店,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 3-chōme−18−１２ アイリス壱番館 105",35.562461,139.722689,179,京急蒲田駅,183.696295
+441,2,CLUB PILATES 蒲田,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 4-chōme−21−２ コンフォリア蒲田 1F",35.5613709,139.721018,179,京急蒲田駅,283.478358
+442,2,LAVA,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−28−４ 明治安田生命蒲田東ビル 4F",35.5618322,139.720557,179,京急蒲田駅,330.19395
+443,2,LUAANA GYM(ルアーナパーソナルジム蒲田）,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 1-chōme−30−１３ ルアーナジム 101",35.5632792,139.721338,179,京急蒲田駅,335.375603
+444,2,Studio At home,"3-chōme-9-15 Kamata, Ota City, Tokyo 144-0052, Japan",35.5643313,139.723647,179,京急蒲田駅,338.551212
+445,2,zen place pilates 蒲田,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−24−４ 蒲田ビル 7F No.R",35.5625473,139.719631,179,京急蒲田駅,431.205607
+446,2,chocoZAP Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−24−４ No.R蒲田 11F",35.5625473,139.719631,179,京急蒲田駅,431.205607
+447,3,CPサロン ラピスブルー（lapisu blue）,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−32−８ サンハイム内山 503",35.5599663,139.718724,179,京急蒲田駅,513.330701
+448,3,Natsumeshinkyu Clinic,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 1-chōme−20−２ 1Ｆ",35.5637488,139.721529,179,京急蒲田駅,359.902732
+449,3,Anytime Fitness Kamata,"5-chōme-30-11 Kamata, Ota City, Tokyo 144-0052, Japan",35.5616891,139.719302,179,京急蒲田駅,440.596306
+450,3,Byutifeisugurandyuokamataten,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館 8F",35.5625886,139.715623,179,京急蒲田駅,784.291665
+451,3,Jexer Refresh Studio sopra,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館RF(屋上階",35.5624498,139.715612,179,京急蒲田駅,782.624604
+452,3,Temomin,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館 8F",35.5626656,139.715629,179,京急蒲田駅,785.359335
+453,3,"Grand Raffine (Granduo Kamata, West Building)","Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館 8階",35.5625595,139.715602,179,京急蒲田駅,785.574574
+454,3,Re . Ra . Ku Tokyu Plaza Kamataten,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−69−１ 東急プラザ蒲田7F",35.5619117,139.715455,179,京急蒲田駅,789.368506
+455,3,ビギナーフィットネスFIRST 蒲田店,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 1-chōme−3−２ コーポプラグレス １０２",35.5685546,139.721545,179,京急蒲田駅,838.872236
+456,3,RK蒲田ボクシングファミリー,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−20−７ Ｋ５２０ビル 3F",35.5618311,139.7187,179,京急蒲田駅,496.376187
+457,3,Sachino-yu,"1-chōme-25-15 Nishikōjiya, Ota City, Tokyo 144-0034, Japan",35.557594,139.732595,179,京急蒲田駅,868.66408
+458,3,TIPNESS Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−28−８, She-Bop, 3 5F",35.5616894,139.720379,179,京急蒲田駅,343.703207
+459,3,Garden Sauna Kamata,"5-chōme-20-5 Kamata, Ota City, Tokyo 144-0052, Japan",35.561818,139.718201,179,京急蒲田駅,541.118938
+460,3,Y'ZDGYM,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−5−１２ 新中央ビル 4階",35.5636786,139.715107,179,京急蒲田駅,859.311334
+461,3,R-TRUCK 京急蒲田,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 3-chōme−15−１５ 9Ferio蒲田 III101",35.5629494,139.724256,179,京急蒲田駅,182.052102
+462,3,LAVA,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−28−４ 明治安田生命蒲田東ビル 4F",35.5618322,139.720557,179,京急蒲田駅,330.19395
+463,3,chocoZAP Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−24−４ No.R蒲田 11F",35.5625473,139.719631,179,京急蒲田駅,431.205607
+464,3,REALWORKOUT,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 1-chōme−23−１２ スターハイツ蒲田 1F",35.5641368,139.720439,179,京急蒲田駅,459.581752
+465,3,ウルトラギャラクシー,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−21−１３ ペガサスステーションプラザ蒲田 510号室",35.5619673,139.719103,179,京急蒲田駅,462.40185
+466,3,レンタルマイサウナ,"1-chōme-8-14 Kamata, Ota City, Tokyo 144-0052, Japan",35.566164,139.722026,179,京急蒲田駅,572.499034
+467,4,Lawson,"2-chōme-16-2 Minamikamata, Ota City, Tokyo 144-0035, Japan",35.5558319,139.721881,179,京急蒲田駅,643.280514
+468,4,7-Eleven,"2-chōme-8-1 Kamatahonchō, Ota City, Tokyo 144-0053, Japan",35.5575492,139.717809,179,京急蒲田駅,710.19883
+469,4,7-Eleven,"5-chōme-7-8 Kamata, Ota City, Tokyo 144-0052, Japan",35.5630165,139.719796,179,京急蒲田駅,437.073373
+470,4,7-Eleven Ota City Higashikamata Cinema-dori Shop,"2-chōme-16-1 Higashikamata, Ota City, Tokyo 144-0031, Japan",35.5622073,139.730131,179,京急蒲田駅,549.962435
+471,4,7-Eleven,"2-chōme-17-17 Kamata, Ota City, Tokyo 144-0052, Japan",35.5663508,139.722851,179,京急蒲田駅,572.241735
+472,4,NEWDAYS Granduo East,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−13−１ ＪＲ蒲田駅１Ｆ＿グランデュオ蒲田店 東館１階",35.5623298,139.716522,179,京急蒲田駅,699.298492
+473,4,NewDays Kamata,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−13−１ JR蒲田駅2F_改札外コンコース",35.5622406,139.716218,179,京急蒲田駅,724.912179
+474,4,FamilyMart,"2-chōme-24-1 Ōmorinaka, Ota City, Tokyo 143-0014, Japan",35.5667532,139.729278,179,京急蒲田駅,762.109501
+475,4,NewDays Mini Kamata 6,"Japan, 〒144-0051 Tokyo, Ota City, Kamata, 5-chōme−13−１ ＪＲ蒲田駅１Ｆ＿西口",35.5626468,139.715553,179,京急蒲田駅,791.696537
+476,4,Lawson,"5-chōme-37-1 Kamata, Ota City, Tokyo 144-0052, Japan",35.5608857,139.718314,179,京急蒲田駅,530.142712
+477,4,FamilyMart,"1-chōme-1-10 Kamatahonchō, Ota City, Tokyo 144-0053, Japan",35.5590478,139.716375,179,京急蒲田駅,747.188717
+478,4,FamilyMart Oura Kamata Station West,"8-chōme-4-12 Nishikamata, Ota City, Tokyo 144-0051, Japan",35.5612388,139.713843,179,京急蒲田駅,932.462526
+479,4,FamilyMart,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−5−１４ シティプラザ蒲田 １Ｆ",35.5639974,139.715025,179,京急蒲田駅,877.789467
+480,4,7-Eleven,"2-chōme-1-3 Ōmorinaka, Ota City, Tokyo 143-0014, Japan",35.5684586,139.730764,179,京急蒲田駅,994.417592
+481,4,7-Eleven,"4-chōme-25-7 Kamata, Ota City, Tokyo 144-0052, Japan",35.559983,139.722092,179,京急蒲田駅,237.900612
+482,4,7-Eleven,"8-chōme-1-7 Nishikamata, Ota City, Tokyo 144-0051, Japan",35.5612262,139.714945,179,京急蒲田駅,832.808534
+483,4,Lawson,"5-chōme-8-13 Kamata, Ota City, Tokyo 144-0052, Japan",35.5632145,139.718549,179,京急蒲田駅,549.046788
+484,4,7-Eleven,"2-chōme-15-22 Minamikamata, Ota City, Tokyo 144-0035, Japan",35.557102,139.72194,179,京急蒲田駅,509.311237
+485,4,Lawson Store 100,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 2-chōme−4−５ スカイドムス",35.5679145,139.724741,179,京急蒲田駅,735.838056
+486,4,7-Eleven,"1-chōme-10-18 Nishikōjiya, Ota City, Tokyo 144-0034, Japan",35.5596229,139.730211,179,京急蒲田駅,579.498634
+487,5,Seijo Ishii,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−13−１ グランデュオ蒲田東館 1Ｆ",35.5626354,139.716513,179,京急蒲田駅,706.368567
+488,5,Kitano Ace,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−68−１ グランデュオ蒲田 西館 B1F",35.5625121,139.715591,179,京急蒲田駅,785.652568
+489,5,Tokyu Store Kamata,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−69−１ 蒲田東急プラザ 1F",35.5617703,139.714857,179,京急蒲田駅,842.198981
+490,5,Keikyu Store,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 4-chōme−50−１１ ウィングキッチン京急蒲田１階",35.5609648,139.723861,179,京急蒲田駅,46.8967707
+491,5,中華物産店（中国物産店）6F,"Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−45−１ 6F",35.5603798,139.716219,179,京急蒲田駅,724.999998
+492,5,okiniiri,"2-chōme-7-16 Kamata, Ota City, Tokyo 144-0052, Japan",35.5673633,139.727814,179,京急蒲田駅,749.79408
+493,5,友誼商店,"Japan, 〒144-0051 Tokyo, Ota City, Nishikamata, 7-chōme−5−１２ 大明ビル",35.5637289,139.715098,179,京急蒲田駅,861.794995
+494,5,Kitsuya,"7-chōme-67-3 Nishikamata, Ota City, Tokyo 144-0051, Japan",35.5620474,139.714316,179,京急蒲田駅,893.342121
+495,5,Venga Venga,"4-chōme-21-1 Nishikōjiya, Ota City, Tokyo 144-0034, Japan",35.5545242,139.730136,179,京急蒲田駅,929.100109
+496,5,OK Store Umeyashiki,"6-chōme-5-6 Ōmorinishi, Ota City, Tokyo 143-0015, Japan",35.5687267,139.729325,179,京急蒲田駅,947.793291
