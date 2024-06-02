@@ -65,8 +65,9 @@ with st.sidebar:
     for i, row in df_facility_code.iterrows():
         facility_code = row['facility_code']
         facility_type = row['facility_type']
-        selected = st.checkbox(facility_type, key=facility_code)
-        selected_facilitys[facility_code] = selected
+        facility_icon = 'glyphicon glyphicon-fire'
+        selected_facilitys[facility_code] = st.checkbox(facility_type, key=facility_code)
+        true_facilitys = [key for key, value in selected_facilitys.items() if value] #地図表示で利用する
 
     if st.button("駅条件だけで検索"):
         # 検索実行
@@ -141,7 +142,7 @@ if 'station_df' in st.session_state:
 
     #---------以下、駅指定後の物件検索結果の出力---------
     if 'selected_station' in st.session_state:
-        # chatgptによる駅紹介
+        # chatgptによる駅紹介　※GPTの結果をDBに格納。
         st.markdown(f'<div class="custom-text">{st.session_state.selected_station}の紹介</div>', unsafe_allow_html=True)
 
         if st.session_state.selected_station and st.session_state.selected_station != st.session_state.last_selected_station:
@@ -160,7 +161,7 @@ if 'station_df' in st.session_state:
         # 対象駅の物件を検索
         df_property = property_search(st.session_state.selected_station,rental_fee_min, rental_fee_max,building_age_min,building_age_max,size_min,size_max)
         # 対象駅の設備を検索
-        df_facility = facility_search()
+        df_facility = facility_search(st.session_state.selected_station,true_facilitys)
 
         # セッションステートの初期化
         if 'selected_indices' not in st.session_state:
@@ -220,13 +221,34 @@ if 'station_df' in st.session_state:
 
         with tab_map:
             #---------地図表示---------
-            map = folium.Map(location=[st.session_state.selected_station_longitude,st.session_state.selected_station_latitude ], zoom_start=17)
+            map = folium.Map(location=[st.session_state.selected_station_longitude,st.session_state.selected_station_latitude ], zoom_start=14)
+            # df_propertyのデータを使ってピンを打つ
+            _df_property = df_property.dropna(subset=['longitude'])
+            for _, row in _df_property.iterrows():
+                if row['longitude'] is not None:
+                    folium.Marker(
+                        location=[row['longitude'],row['latitude']], 
+                        tooltip=f"{row['property_name']} ",
+                        icon=folium.Icon(icon="home",color="red")
+                        ).add_to(map)
             # df_facilityのデータを使ってピンを打つ
             for _, row in df_facility.iterrows():
+                if row['facility_code'] == 1:
+                    icon_type = 'fire'
+                elif row['facility_code'] == 2:
+                    icon_type = 'tint'
+                elif row['facility_code'] == 3:
+                    icon_type = 'cutlery'
+                elif row['facility_code'] == 4:
+                    icon_type = 'barcode'
+                elif row['facility_code'] == 5:
+                    icon_type = 'grain'
+                else:
+                    icon_type = ''
                 folium.Marker(
                     location=[row['longitude'],row['latitude']], 
                     tooltip=f"{row['store_name']} ",
-                    icon=folium.Icon(icon="barcode")
+                    icon=folium.Icon(icon = icon_type)                       
                     ).add_to(map)
             # 地図の表示
             st_folium(map, width=1200, height=600)
