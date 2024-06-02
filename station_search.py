@@ -43,8 +43,7 @@ def station_search_withproperty(target_Station1,allowable_time1,target_Station2,
         travel_time tt ON st.station_name = tt.station_name_from,
         property p ON st.station_name = p.near_station_name
     WHERE 
-        st.Facility1 IS NOT NULL AND st.Facility1 != ''
-        AND (tt.station_name_to = '{target_Station1}' OR tt.station_name_to = '{target_Station2}')
+        (tt.station_name_to = '{target_Station1}' OR tt.station_name_to = '{target_Station2}')
         AND ((tt.station_name_to = '{target_Station1}' AND tt.travel_time <= {allowable_time1}) OR (tt.station_name_to = '{target_Station2}' AND tt.travel_time <= {allowable_time2}))
         AND p.rental_fee BETWEEN {rental_fee_min} AND {rental_fee_max}
         AND p.building_age BETWEEN {building_age_min} AND {building_age_max}
@@ -101,8 +100,7 @@ def station_search(target_Station1,allowable_time1,target_Station2,allowable_tim
         travel_time tt ON st.station_name = tt.station_name_from,
         property p ON st.station_name = p.near_station_name
     WHERE 
-        st.Facility1 IS NOT NULL AND st.Facility1 != ''
-        AND (tt.station_name_to = '{target_Station1}' OR tt.station_name_to = '{target_Station2}')
+        (tt.station_name_to = '{target_Station1}' OR tt.station_name_to = '{target_Station2}')
         AND ((tt.station_name_to = '{target_Station1}' AND tt.travel_time <= {allowable_time1}) OR (tt.station_name_to = '{target_Station2}' AND tt.travel_time <= {allowable_time2}))
     GROUP BY
         st.station_code
