@@ -11,12 +11,10 @@
 # ・設備リスト：データフレーム
 #############
 
-def facility_search():
+def facility_search(station_name,true_facilitys):
     import pandas as pd
     import sqlite3
     
-    station_name = '泉岳寺駅'
-    facility_types = ['1', '2']
 
     # データベースに接続
     conn = sqlite3.connect('Realestate_Search.db')
@@ -33,7 +31,7 @@ def facility_search():
 	    facility f
     WHERE
 	    near_station_name = '{station_name}'
-	    AND f.facility_code IN ({', '.join([f"'{facility_type}'" for facility_type in facility_types])})
+	    AND f.facility_code IN ({', '.join([f"'{true_facility}'" for true_facility in true_facilitys])})
     """
 
     # データベースへの接続とクエリの実行
