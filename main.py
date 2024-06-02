@@ -207,8 +207,8 @@ if 'station_df' in st.session_state:
 
                 cols[1].markdown(f"**[{row['property_name']}]({row['url']})**", unsafe_allow_html=True)
                 cols[2].write(row['layout'])
-                cols[3].write(str(row['avg_rental_fee'])+"円")
-                cols[4].write(str(row['avg_deposit'])+"円")
+                cols[3].write(str(row['avg_rental_fee'])+"万円")
+                cols[4].write(str(row['avg_deposit'])+"万円")
                 cols[5].write(row['floors'])
                 cols[6].write(str(row['avg_size'])+"㎡")
                 cols[7].write(str(int(row['avg_building_age']))+"年")
