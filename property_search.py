@@ -19,20 +19,10 @@
 #############
 
 
-def property_search():
+def property_search(station_name,rental_fee_min, rental_fee_max,building_age_min,building_age_max,size_min,size_max):
     import pandas as pd
     import sqlite3
     
-    # Webフロントからの入力値
-    near_station_name = '泉岳寺駅'
-    rental_fee_min = 10
-    rental_fee_max = 50
-    building_age_min = 0
-    building_age_max = 30
-    size_min = 0
-    size_max = 100
-    layouts = ['1LDK', '1K', '2LDK']
-
     # 動的SQLクエリの作成
     query = f"""
     SELECT
@@ -53,11 +43,10 @@ def property_search():
     FROM
         property p
     WHERE 
-        p.near_station_name = '{near_station_name}'
+        p.near_station_name = '{station_name}'
         AND p.rental_fee BETWEEN {rental_fee_min} AND {rental_fee_max}
         AND p.building_age BETWEEN {building_age_min} AND {building_age_max}
         AND p.size BETWEEN {size_min} AND {size_max}
-        AND p.layout IN ({', '.join([f"'{layout}'" for layout in layouts])})
     GROUP BY 
         p.property_name,
         p.layout

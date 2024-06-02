@@ -1,6 +1,8 @@
 # サブモジュールをインポートする
 from station_search import station_search
+from station_search import station_search_withproperty
 from introduction_to_Station import introduction_to_Station
+from introduction_to_Station import introduction_to_Station_gpt
 from property_search import property_search
 from facility_search import facility_search
 
@@ -45,19 +47,6 @@ results = cursor.fetchall()
 # データフレームに変換
 df_facility_code = pd.DataFrame(results, columns=['facility_code', 'facility_type'])
 
-### 駅近（半径1KM以内）に必要な施設
-set_layout_list = [
-    "1R",
-    "1K",
-    "1DK",
-    "1LDK",
-    "2DK",
-    "2LDK",
-    "3DK",
-    "3LDK",
-    "4DK",
-    "4LDK"
-]
 
 #---------サイドバー設定---------
 with st.sidebar:
@@ -65,9 +54,9 @@ with st.sidebar:
     st.markdown('<div class="custom-text">駅検索条件</div>', unsafe_allow_html=True)
     st.write("## よく行く場所:")  
     target_Station1 = st.text_input("目的地駅①",'大手町駅',key='target_Station1')
-    allowable_time1 = st.number_input('目的地駅①までの許容時間（分）', min_value=0, value=30, key='allowable_time1')
+    allowable_time1 = st.number_input('目的地駅①までの許容時間（分）', min_value=0, value=25, key='allowable_time1')
     target_Station2 = st.text_input("目的地駅②",'羽田空港第１・第２ターミナル駅',key='target_Station2')
-    allowable_time2 = st.number_input('目的地駅②までの許容時間（分）', min_value=0, value=30, key='allowable_time2')
+    allowable_time2 = st.number_input('目的地駅②までの許容時間（分）', min_value=0, value=25, key='allowable_time2')
 
     st.write("## 駅近（半径1KM以内）に必要な施設:")  
     # チェックボックスの選択状態を管理するための辞書
@@ -81,64 +70,73 @@ with st.sidebar:
 
     if st.button("駅条件だけで検索"):
         # 検索実行
-        station_df = station_search(target_Station1,allowable_time1,target_Station2,allowable_time2,selected_facilitys)
+        station_df = station_search(target_Station1,allowable_time1,target_Station2,allowable_time2)
         st.session_state.station_df = station_df
     
     #---------以下、物件検索条件---------
     st.markdown('<div class="custom-text">物件条件</div>', unsafe_allow_html=True)
-    selected_layouts = st.multiselect('希望するレイアウトを選択してください', set_layout_list)
-    rental_fee_range = st.slider('希望する金額範囲を指定してください（万円）', 0, 100, (10, 20))
-    building_age_range = st.slider('希望する築年数範囲を指定してください（年）', 0, 40, (0, 10))
-    size_range = st.slider('希望する物件サイズ範囲を指定してください（㎡）', 10, 200, (20, 50))
+    #変数に初期値を格納
+    rental_fee_min = 15
+    rental_fee_max = 25
+    building_age_min = 0
+    building_age_max = 10
+    size_min = 40
+    size_max = 60 
+    #検索条件の表示
+    rental_fee_min, rental_fee_max= st.slider('希望する金額範囲を指定してください（万円）', 0, 100, (rental_fee_min, rental_fee_max))
+    building_age_min,building_age_max = st.slider('希望する築年数範囲を指定してください（年）', 0, 40, (building_age_min, building_age_max))
+    size_min,size_max = st.slider('希望する物件サイズ範囲を指定してください（㎡）', 10, 200, (size_min, size_max))
 
     if st.button("駅と物件条件で検索"):
         # 検索実行
-        station_df = station_search(target_Station1,allowable_time1,target_Station2,allowable_time2,selected_facilitys)
+        station_df = station_search_withproperty(target_Station1,allowable_time1,target_Station2,allowable_time2,rental_fee_min, rental_fee_max,building_age_min,building_age_max,size_min,size_max)
         st.session_state.station_df = station_df
 
 #---------以下、駅検索結果の出力---------
 if 'station_df' in st.session_state:
 
     st.markdown('<div class="custom-text">候補駅一覧</div>', unsafe_allow_html=True)
+    if st.session_state.station_df.empty:
+        st.write('該当する駅がありません')
+    else:
+        # ページネーションを設定
+        page_size = 10
+        total_pages = (len(st.session_state.station_df) + page_size - 1) // page_size
+        page_number = st.number_input('ページ番号', min_value=1, max_value=total_pages, value=1, step=1) - 1
+        start_index = page_number * page_size
+        end_index = min(start_index + page_size, len(st.session_state.station_df))
+        displayed_df = st.session_state.station_df.iloc[start_index:end_index]
 
-    # ページネーションを設定
-    page_size = 10
-    total_pages = (len(st.session_state.station_df) + page_size - 1) // page_size
-    page_number = st.number_input('ページ番号', min_value=1, max_value=total_pages, value=1, step=1) - 1
-    start_index = page_number * page_size
-    end_index = min(start_index + page_size, len(st.session_state.station_df))
-    displayed_df = st.session_state.station_df.iloc[start_index:end_index]
+        # タイトル行の常時表示
+        title_row = st.session_state.station_df.iloc[0]
+        title_cols = st.columns([2, 2, 2, 2, 2, 2, 2, 2])
+        title_cols[0].write('**駅名**')
+        title_cols[1].write('**主要路線**')
+        title_cols[2].write('**区**')
+        title_cols[3].write('**①までの時間**')
+        title_cols[4].write('**②までの時間**')
+        title_cols[5].write('**平均賃料**')
+        title_cols[6].write('**候補物件数**')
 
-    # タイトル行の常時表示
-    title_row = st.session_state.station_df.iloc[0]
-    title_cols = st.columns([2, 2, 2, 2, 2, 2, 2, 2])
-    title_cols[0].write('**駅名**')
-    title_cols[1].write('**主要路線**')
-    title_cols[2].write('**区**')
-    title_cols[3].write('**①までの時間**')
-    title_cols[4].write('**②までの時間**')
-    title_cols[5].write('**平均賃料**')
-    title_cols[6].write('**候補物件数**')
-
-
-    for i, row in displayed_df.iterrows():
-        index = start_index + i  # 元のデータフレームでのインデックス位置
-        cols = st.columns([2, 2, 2, 2, 2, 2, 2, 2])
-        cols[0].write(row['station_name'])
-        cols[1].write(row['line'])
-        cols[2].write(row['ward'])
-        cols[3].write(str(int(row['time_to_target1']))+"分")
-        cols[4].write(str(int(row['time_to_target2']))+"分")
-        cols[5].write(str(int(row['average_rent']))+"円")
-        cols[6].write(str(row['num_properties']))
-        if cols[7].button("選択", key=f"select_{index}"):  # キーにインデックスを追加
-            if 'selected_station' not in st.session_state:
-                st.session_state.selected_station = None
-            if 'last_selected_station' not in st.session_state:
-                st.session_state.last_selected_station = None
-            st.session_state.selected_station = row['station_name']
-            st.session_state.selected_station_longitude = row['longitude']
-            st.session_state.selected_station_latitude = row['latitude']
+        for i, row in displayed_df.iterrows():
+            index = start_index + i  # 元のデータフレームでのインデックス位置
+            cols = st.columns([2, 2, 2, 2, 2, 2, 2, 2])
+            cols[0].write(row['station_name'])
+            cols[1].write(row['line'])
+            cols[2].write(row['ward'])
+            cols[3].write(str(int(row['time_to_target1']))+"分")
+            cols[4].write(str(int(row['time_to_target2']))+"分")
+            cols[5].write(str(row['average_rent'])+"万円")
+            cols[6].write(str(row['num_properties']))
+            if cols[7].button("選択", key=f"select_{index}"):  # キーにインデックスを追加
+                if 'selected_station' not in st.session_state:
+                    st.session_state.selected_station = None
+                if 'last_selected_station' not in st.session_state:
+                    st.session_state.last_selected_station = None
+                st.session_state.selected_station = row['station_name']
+                st.session_state.selected_station_longitude = row['longitude']
+                st.session_state.selected_station_latitude = row['latitude']
+                
 
 
     #---------以下、駅指定後の物件検索結果の出力---------
@@ -148,8 +146,8 @@ if 'station_df' in st.session_state:
 
         if st.session_state.selected_station and st.session_state.selected_station != st.session_state.last_selected_station:
             st.session_state.last_selected_station = st.session_state.selected_station
-            #introduction_text = introduction_to_Station(st.session_state.selected_station)
-            introduction_text = "処理スキップ"
+            introduction_text = introduction_to_Station(st.session_state.selected_station)
+            #introduction_text = introduction_to_Station_gpt(st.session_state.selected_station)
             st.session_state.introduction_text = introduction_text
             st.write(introduction_text)
         elif 'introduction_text' in st.session_state:
@@ -160,7 +158,7 @@ if 'station_df' in st.session_state:
         tab_lists,tab_map = st.tabs(["一覧で表示","地図で表示",])
 
         # 対象駅の物件を検索
-        df_property = property_search()
+        df_property = property_search(st.session_state.selected_station,rental_fee_min, rental_fee_max,building_age_min,building_age_max,size_min,size_max)
         # 対象駅の設備を検索
         df_facility = facility_search()
 
@@ -228,7 +226,7 @@ if 'station_df' in st.session_state:
                 folium.Marker(
                     location=[row['longitude'],row['latitude']], 
                     tooltip=f"{row['store_name']} ",
-                    icon=folium.Icon(icon="home")
+                    icon=folium.Icon(icon="barcode")
                     ).add_to(map)
             # 地図の表示
             st_folium(map, width=1200, height=600)

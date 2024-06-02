@@ -10,9 +10,29 @@
 # ・紹介文：テキスト
 #############
 
-
-
 def introduction_to_Station(station_name):
+    import pandas as pd
+    import sqlite3
+    conn = sqlite3.connect('Realestate_Search.db')
+    cursor = conn.cursor()
+
+    # 動的SQLクエリの作成
+    query = f"""
+    select 
+	    introduction
+    from
+	    station
+    WHERE
+	    station_name = '{station_name}'
+    """    
+    # データベースへの接続とクエリの実行
+    conn = sqlite3.connect('Realestate_Search.db')
+    df = pd.read_sql_query(query, conn)
+    conn.close()
+
+    return df.iloc[0, 0]
+
+def introduction_to_Station_gpt(station_name):
 
     import openai
     import os
