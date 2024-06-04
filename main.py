@@ -233,11 +233,11 @@ if 'station_df' in st.session_state:
                         ).add_to(map)
             # df_facilityのデータを使ってピンを打つ
             for _, row in df_facility.iterrows():
-                if row['facility_code'] == 1:
+                if row['facility_code'] == 2:
                     icon_type = 'fire'
-                elif row['facility_code'] == 2:
-                    icon_type = 'tint'
                 elif row['facility_code'] == 3:
+                    icon_type = 'tint'
+                elif row['facility_code'] == 1:
                     icon_type = 'cutlery'
                 elif row['facility_code'] == 4:
                     icon_type = 'barcode'
