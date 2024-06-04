@@ -287,3 +287,5 @@ if 'station_df' in st.session_state:
             st.markdown(html_table, unsafe_allow_html=True)
         else:
             st.write("選択された物件はありません。")
+else:
+    st.image("title.png")
